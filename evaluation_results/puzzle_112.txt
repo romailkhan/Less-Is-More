@@ -1,0 +1,32 @@
+=== PUZZLE INPUT ===
+Q: There are 2 houses next to each other, numbered 1 on the left and 2 on the right. There is one person living in each house. The people in these houses have different characteristics:
+ - Each person plays a different musical instrument: one is a pianist and one is a cellist
+ - Each person has a favorite color: one likes red and one likes green
+ - Everyone likes a different kind of book: one is a mystery book reader and one is a fantasy book enthusiast
+
+Clue(s):
+1. The fantasy book enthusiast lives in the first house.
+2. The cellist lives in the first house.
+3. The person who likes green lives somewhere to the left of the person who likes red.
+
+What is the number of the house where the mystery book reader lives?
+  choice: 2
+  choice: 1
+A:
+
+=== CORRECT TARGET ===
+['2']
+
+=== AGENT RAW RESPONSE ===
+{
+  "initial_query": "Q: There are 2 houses next to each other, numbered 1 on the left and 2 on the right. There is one person living in each house. The people in these houses have different characteristics:\n - Each person plays a different musical instrument: one is a pianist and one is a cellist\n - Each person has a favorite color: one likes red and one likes green\n - Everyone likes a different kind of book: one is a mystery book reader and one is a fantasy book enthusiast\n\nClue(s):\n1. The fantasy book enthusiast lives in the first house.\n2. The cellist lives in the first house.\n3. The person who likes green lives somewhere to the left of the person who likes red.\n\nWhat is the number of the house where the mystery book reader lives?\n  choice: 2\n  choice: 1\nA:",
+  "agents": {
+    "reasoning": {
+      "final_answer": "The mystery book reader lives in house number 2."
+    }
+  }
+}
+
+=== EVALUATION ===
+Extracted Answer: None
+Is Correct: False

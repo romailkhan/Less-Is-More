@@ -1,0 +1,2767 @@
+{
+  "benchmark": "mgsm",
+  "mode": "single",
+  "data_source": "auto",
+  "offset": 0,
+  "dataset_size": 250,
+  "accuracy": 0.968,
+  "correct": 242,
+  "total": 250,
+  "token_usage_total": {
+    "input_tokens": 43657,
+    "output_tokens": 70391,
+    "total_tokens": 114048
+  },
+  "rows": [
+    {
+      "index": 1,
+      "expected": 25.0,
+      "predicted": 25.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 165,
+        "output_tokens": 183,
+        "total_tokens": 348
+      }
+    },
+    {
+      "index": 2,
+      "expected": 6.0,
+      "predicted": 6.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 180,
+        "output_tokens": 358,
+        "total_tokens": 538
+      }
+    },
+    {
+      "index": 3,
+      "expected": 125.0,
+      "predicted": 125.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 208,
+        "output_tokens": 226,
+        "total_tokens": 434
+      }
+    },
+    {
+      "index": 4,
+      "expected": 13.0,
+      "predicted": 13.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 180,
+        "output_tokens": 479,
+        "total_tokens": 659
+      }
+    },
+    {
+      "index": 5,
+      "expected": 18.0,
+      "predicted": 18.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 174,
+        "output_tokens": 451,
+        "total_tokens": 625
+      }
+    },
+    {
+      "index": 6,
+      "expected": 45.0,
+      "predicted": 45.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 218,
+        "output_tokens": 438,
+        "total_tokens": 656
+      }
+    },
+    {
+      "index": 7,
+      "expected": 36.0,
+      "predicted": 36.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 161,
+        "output_tokens": 257,
+        "total_tokens": 418
+      }
+    },
+    {
+      "index": 8,
+      "expected": 40.0,
+      "predicted": 40.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 215,
+        "output_tokens": 282,
+        "total_tokens": 497
+      }
+    },
+    {
+      "index": 9,
+      "expected": 40.0,
+      "predicted": 40.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 193,
+        "output_tokens": 190,
+        "total_tokens": 383
+      }
+    },
+    {
+      "index": 10,
+      "expected": 15.0,
+      "predicted": 15.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 177,
+        "output_tokens": 335,
+        "total_tokens": 512
+      }
+    },
+    {
+      "index": 11,
+      "expected": 163.0,
+      "predicted": 163.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 212,
+        "output_tokens": 303,
+        "total_tokens": 515
+      }
+    },
+    {
+      "index": 12,
+      "expected": 18.0,
+      "predicted": 18.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 188,
+        "output_tokens": 460,
+        "total_tokens": 648
+      }
+    },
+    {
+      "index": 13,
+      "expected": 8.0,
+      "predicted": 8.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 162,
+        "output_tokens": 139,
+        "total_tokens": 301
+      }
+    },
+    {
+      "index": 14,
+      "expected": 200.0,
+      "predicted": 200.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 239,
+        "output_tokens": 401,
+        "total_tokens": 640
+      }
+    },
+    {
+      "index": 15,
+      "expected": 26.0,
+      "predicted": 26.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 195,
+        "output_tokens": 176,
+        "total_tokens": 371
+      }
+    },
+    {
+      "index": 16,
+      "expected": 48.0,
+      "predicted": 48.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 175,
+        "output_tokens": 434,
+        "total_tokens": 609
+      }
+    },
+    {
+      "index": 17,
+      "expected": 20.0,
+      "predicted": 20.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 185,
+        "output_tokens": 227,
+        "total_tokens": 412
+      }
+    },
+    {
+      "index": 18,
+      "expected": 104.0,
+      "predicted": 104.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 206,
+        "output_tokens": 266,
+        "total_tokens": 472
+      }
+    },
+    {
+      "index": 19,
+      "expected": 800.0,
+      "predicted": 800.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 164,
+        "output_tokens": 331,
+        "total_tokens": 495
+      }
+    },
+    {
+      "index": 20,
+      "expected": 8.0,
+      "predicted": 8.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 150,
+        "output_tokens": 162,
+        "total_tokens": 312
+      }
+    },
+    {
+      "index": 21,
+      "expected": 30.0,
+      "predicted": 30.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 157,
+        "output_tokens": 183,
+        "total_tokens": 340
+      }
+    },
+    {
+      "index": 22,
+      "expected": 294.0,
+      "predicted": 294.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 150,
+        "output_tokens": 212,
+        "total_tokens": 362
+      }
+    },
+    {
+      "index": 23,
+      "expected": 5.0,
+      "predicted": 5.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 164,
+        "output_tokens": 183,
+        "total_tokens": 347
+      }
+    },
+    {
+      "index": 24,
+      "expected": 15.0,
+      "predicted": 15.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 177,
+        "output_tokens": 267,
+        "total_tokens": 444
+      }
+    },
+    {
+      "index": 25,
+      "expected": 14.0,
+      "predicted": 14.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 160,
+        "output_tokens": 19,
+        "total_tokens": 179
+      }
+    },
+    {
+      "index": 26,
+      "expected": 3.0,
+      "predicted": 3.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 159,
+        "output_tokens": 178,
+        "total_tokens": 337
+      }
+    },
+    {
+      "index": 27,
+      "expected": 83.0,
+      "predicted": 83.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 192,
+        "output_tokens": 268,
+        "total_tokens": 460
+      }
+    },
+    {
+      "index": 28,
+      "expected": 57.0,
+      "predicted": 57.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 198,
+        "output_tokens": 236,
+        "total_tokens": 434
+      }
+    },
+    {
+      "index": 29,
+      "expected": 187.0,
+      "predicted": 187.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 145,
+        "output_tokens": 146,
+        "total_tokens": 291
+      }
+    },
+    {
+      "index": 30,
+      "expected": 17.0,
+      "predicted": 17.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 151,
+        "output_tokens": 191,
+        "total_tokens": 342
+      }
+    },
+    {
+      "index": 31,
+      "expected": 1430.0,
+      "predicted": 1430.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 173,
+        "output_tokens": 208,
+        "total_tokens": 381
+      }
+    },
+    {
+      "index": 32,
+      "expected": 25000.0,
+      "predicted": 25000.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 182,
+        "output_tokens": 567,
+        "total_tokens": 749
+      }
+    },
+    {
+      "index": 33,
+      "expected": 1596.0,
+      "predicted": 1596.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 183,
+        "output_tokens": 232,
+        "total_tokens": 415
+      }
+    },
+    {
+      "index": 34,
+      "expected": 300.0,
+      "predicted": 300.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 207,
+        "output_tokens": 243,
+        "total_tokens": 450
+      }
+    },
+    {
+      "index": 35,
+      "expected": 48.0,
+      "predicted": 48.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 172,
+        "output_tokens": 273,
+        "total_tokens": 445
+      }
+    },
+    {
+      "index": 36,
+      "expected": 595.0,
+      "predicted": 595.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 167,
+        "output_tokens": 250,
+        "total_tokens": 417
+      }
+    },
+    {
+      "index": 37,
+      "expected": 36.0,
+      "predicted": 36.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 152,
+        "output_tokens": 202,
+        "total_tokens": 354
+      }
+    },
+    {
+      "index": 38,
+      "expected": 60.0,
+      "predicted": 60.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 165,
+        "output_tokens": 162,
+        "total_tokens": 327
+      }
+    },
+    {
+      "index": 39,
+      "expected": 18.0,
+      "predicted": 18.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 178,
+        "output_tokens": 206,
+        "total_tokens": 384
+      }
+    },
+    {
+      "index": 40,
+      "expected": 3.0,
+      "predicted": 3.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 140,
+        "output_tokens": 158,
+        "total_tokens": 298
+      }
+    },
+    {
+      "index": 41,
+      "expected": 70000.0,
+      "predicted": 70000.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 171,
+        "output_tokens": 304,
+        "total_tokens": 475
+      }
+    },
+    {
+      "index": 42,
+      "expected": 540.0,
+      "predicted": 540.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 148,
+        "output_tokens": 239,
+        "total_tokens": 387
+      }
+    },
+    {
+      "index": 43,
+      "expected": 20.0,
+      "predicted": 20.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 225,
+        "output_tokens": 232,
+        "total_tokens": 457
+      }
+    },
+    {
+      "index": 44,
+      "expected": 64.0,
+      "predicted": 64.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 168,
+        "output_tokens": 259,
+        "total_tokens": 427
+      }
+    },
+    {
+      "index": 45,
+      "expected": 260.0,
+      "predicted": 260.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 156,
+        "output_tokens": 207,
+        "total_tokens": 363
+      }
+    },
+    {
+      "index": 46,
+      "expected": 160.0,
+      "predicted": 160.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 184,
+        "output_tokens": 382,
+        "total_tokens": 566
+      }
+    },
+    {
+      "index": 47,
+      "expected": 460.0,
+      "predicted": 460.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 174,
+        "output_tokens": 262,
+        "total_tokens": 436
+      }
+    },
+    {
+      "index": 48,
+      "expected": 366.0,
+      "predicted": 366.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 174,
+        "output_tokens": 270,
+        "total_tokens": 444
+      }
+    },
+    {
+      "index": 49,
+      "expected": 694.0,
+      "predicted": 694.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 176,
+        "output_tokens": 263,
+        "total_tokens": 439
+      }
+    },
+    {
+      "index": 50,
+      "expected": 60.0,
+      "predicted": 60.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 168,
+        "output_tokens": 348,
+        "total_tokens": 516
+      }
+    },
+    {
+      "index": 51,
+      "expected": 230.0,
+      "predicted": 230.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 167,
+        "output_tokens": 150,
+        "total_tokens": 317
+      }
+    },
+    {
+      "index": 52,
+      "expected": 57500.0,
+      "predicted": 57500.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 172,
+        "output_tokens": 255,
+        "total_tokens": 427
+      }
+    },
+    {
+      "index": 53,
+      "expected": 7.0,
+      "predicted": 7.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 141,
+        "output_tokens": 199,
+        "total_tokens": 340
+      }
+    },
+    {
+      "index": 54,
+      "expected": 14.0,
+      "predicted": 14.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 160,
+        "output_tokens": 272,
+        "total_tokens": 432
+      }
+    },
+    {
+      "index": 55,
+      "expected": 7.0,
+      "predicted": 7.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 170,
+        "output_tokens": 155,
+        "total_tokens": 325
+      }
+    },
+    {
+      "index": 56,
+      "expected": 8.0,
+      "predicted": 8.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 152,
+        "output_tokens": 165,
+        "total_tokens": 317
+      }
+    },
+    {
+      "index": 57,
+      "expected": 26.0,
+      "predicted": 26.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 155,
+        "output_tokens": 269,
+        "total_tokens": 424
+      }
+    },
+    {
+      "index": 58,
+      "expected": 2.0,
+      "predicted": 2.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 181,
+        "output_tokens": 248,
+        "total_tokens": 429
+      }
+    },
+    {
+      "index": 59,
+      "expected": 243.0,
+      "predicted": 243.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 183,
+        "output_tokens": 383,
+        "total_tokens": 566
+      }
+    },
+    {
+      "index": 60,
+      "expected": 16.0,
+      "predicted": 16.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 170,
+        "output_tokens": 194,
+        "total_tokens": 364
+      }
+    },
+    {
+      "index": 61,
+      "expected": 104.0,
+      "predicted": 104.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 181,
+        "output_tokens": 249,
+        "total_tokens": 430
+      }
+    },
+    {
+      "index": 62,
+      "expected": 109.0,
+      "predicted": 109.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 155,
+        "output_tokens": 271,
+        "total_tokens": 426
+      }
+    },
+    {
+      "index": 63,
+      "expected": 80.0,
+      "predicted": 80.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 177,
+        "output_tokens": 282,
+        "total_tokens": 459
+      }
+    },
+    {
+      "index": 64,
+      "expected": 35.0,
+      "predicted": 35.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 155,
+        "output_tokens": 191,
+        "total_tokens": 346
+      }
+    },
+    {
+      "index": 65,
+      "expected": 70.0,
+      "predicted": 70.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 144,
+        "output_tokens": 19,
+        "total_tokens": 163
+      }
+    },
+    {
+      "index": 66,
+      "expected": 23.0,
+      "predicted": 23.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 156,
+        "output_tokens": 168,
+        "total_tokens": 324
+      }
+    },
+    {
+      "index": 67,
+      "expected": 9.0,
+      "predicted": 9.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 166,
+        "output_tokens": 184,
+        "total_tokens": 350
+      }
+    },
+    {
+      "index": 68,
+      "expected": 75.0,
+      "predicted": 75.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 155,
+        "output_tokens": 228,
+        "total_tokens": 383
+      }
+    },
+    {
+      "index": 69,
+      "expected": 2.0,
+      "predicted": 2.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 175,
+        "output_tokens": 311,
+        "total_tokens": 486
+      }
+    },
+    {
+      "index": 70,
+      "expected": 10.0,
+      "predicted": 10.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 158,
+        "output_tokens": 220,
+        "total_tokens": 378
+      }
+    },
+    {
+      "index": 71,
+      "expected": 7425.0,
+      "predicted": 7425.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 166,
+        "output_tokens": 375,
+        "total_tokens": 541
+      }
+    },
+    {
+      "index": 72,
+      "expected": 60.0,
+      "predicted": 60.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 158,
+        "output_tokens": 156,
+        "total_tokens": 314
+      }
+    },
+    {
+      "index": 73,
+      "expected": 221.0,
+      "predicted": 221.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 160,
+        "output_tokens": 185,
+        "total_tokens": 345
+      }
+    },
+    {
+      "index": 74,
+      "expected": 255.0,
+      "predicted": 255.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 159,
+        "output_tokens": 275,
+        "total_tokens": 434
+      }
+    },
+    {
+      "index": 75,
+      "expected": 88.0,
+      "predicted": 88.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 237,
+        "output_tokens": 290,
+        "total_tokens": 527
+      }
+    },
+    {
+      "index": 76,
+      "expected": 60.0,
+      "predicted": 60.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 180,
+        "output_tokens": 336,
+        "total_tokens": 516
+      }
+    },
+    {
+      "index": 77,
+      "expected": 5.0,
+      "predicted": 5.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 199,
+        "output_tokens": 291,
+        "total_tokens": 490
+      }
+    },
+    {
+      "index": 78,
+      "expected": 100.0,
+      "predicted": 100.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 159,
+        "output_tokens": 206,
+        "total_tokens": 365
+      }
+    },
+    {
+      "index": 79,
+      "expected": 6.0,
+      "predicted": 6.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 156,
+        "output_tokens": 263,
+        "total_tokens": 419
+      }
+    },
+    {
+      "index": 80,
+      "expected": 70.0,
+      "predicted": 70.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 162,
+        "output_tokens": 19,
+        "total_tokens": 181
+      }
+    },
+    {
+      "index": 81,
+      "expected": 10.0,
+      "predicted": 10.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 149,
+        "output_tokens": 232,
+        "total_tokens": 381
+      }
+    },
+    {
+      "index": 82,
+      "expected": 17.0,
+      "predicted": 17.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 173,
+        "output_tokens": 213,
+        "total_tokens": 386
+      }
+    },
+    {
+      "index": 83,
+      "expected": 623.0,
+      "predicted": 617.0,
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 144,
+        "output_tokens": 20,
+        "total_tokens": 164
+      }
+    },
+    {
+      "index": 84,
+      "expected": 600.0,
+      "predicted": 600.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 144,
+        "output_tokens": 168,
+        "total_tokens": 312
+      }
+    },
+    {
+      "index": 85,
+      "expected": 15.0,
+      "predicted": 15.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 138,
+        "output_tokens": 19,
+        "total_tokens": 157
+      }
+    },
+    {
+      "index": 86,
+      "expected": 44.0,
+      "predicted": 48.0,
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 198,
+        "output_tokens": 243,
+        "total_tokens": 441
+      }
+    },
+    {
+      "index": 87,
+      "expected": 22.0,
+      "predicted": 22.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 202,
+        "output_tokens": 162,
+        "total_tokens": 364
+      }
+    },
+    {
+      "index": 88,
+      "expected": 9360.0,
+      "predicted": 9360.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 193,
+        "output_tokens": 486,
+        "total_tokens": 679
+      }
+    },
+    {
+      "index": 89,
+      "expected": 8000.0,
+      "predicted": 8000.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 154,
+        "output_tokens": 414,
+        "total_tokens": 568
+      }
+    },
+    {
+      "index": 90,
+      "expected": 24.0,
+      "predicted": 24.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 164,
+        "output_tokens": 214,
+        "total_tokens": 378
+      }
+    },
+    {
+      "index": 91,
+      "expected": 225.0,
+      "predicted": 225.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 200,
+        "output_tokens": 259,
+        "total_tokens": 459
+      }
+    },
+    {
+      "index": 92,
+      "expected": 28.0,
+      "predicted": 28.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 148,
+        "output_tokens": 182,
+        "total_tokens": 330
+      }
+    },
+    {
+      "index": 93,
+      "expected": 4.0,
+      "predicted": 4.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 165,
+        "output_tokens": 270,
+        "total_tokens": 435
+      }
+    },
+    {
+      "index": 94,
+      "expected": 36.0,
+      "predicted": 36.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 202,
+        "output_tokens": 785,
+        "total_tokens": 987
+      }
+    },
+    {
+      "index": 95,
+      "expected": 348.0,
+      "predicted": 348.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 165,
+        "output_tokens": 285,
+        "total_tokens": 450
+      }
+    },
+    {
+      "index": 96,
+      "expected": 40.0,
+      "predicted": 40.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 156,
+        "output_tokens": 332,
+        "total_tokens": 488
+      }
+    },
+    {
+      "index": 97,
+      "expected": 3.0,
+      "predicted": 3.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 146,
+        "output_tokens": 18,
+        "total_tokens": 164
+      }
+    },
+    {
+      "index": 98,
+      "expected": 12.0,
+      "predicted": 12.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 169,
+        "output_tokens": 250,
+        "total_tokens": 419
+      }
+    },
+    {
+      "index": 99,
+      "expected": 5.0,
+      "predicted": 5.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 209,
+        "output_tokens": 250,
+        "total_tokens": 459
+      }
+    },
+    {
+      "index": 100,
+      "expected": 58.0,
+      "predicted": 58.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 191,
+        "output_tokens": 318,
+        "total_tokens": 509
+      }
+    },
+    {
+      "index": 101,
+      "expected": 175.0,
+      "predicted": 175.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 204,
+        "output_tokens": 296,
+        "total_tokens": 500
+      }
+    },
+    {
+      "index": 102,
+      "expected": 6.0,
+      "predicted": 6.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 191,
+        "output_tokens": 225,
+        "total_tokens": 416
+      }
+    },
+    {
+      "index": 103,
+      "expected": 26.0,
+      "predicted": 26.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 179,
+        "output_tokens": 284,
+        "total_tokens": 463
+      }
+    },
+    {
+      "index": 104,
+      "expected": 140.0,
+      "predicted": 140.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 178,
+        "output_tokens": 278,
+        "total_tokens": 456
+      }
+    },
+    {
+      "index": 105,
+      "expected": 500.0,
+      "predicted": 500.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 161,
+        "output_tokens": 228,
+        "total_tokens": 389
+      }
+    },
+    {
+      "index": 106,
+      "expected": 20.0,
+      "predicted": 20.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 145,
+        "output_tokens": 19,
+        "total_tokens": 164
+      }
+    },
+    {
+      "index": 107,
+      "expected": 72.0,
+      "predicted": 72.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 158,
+        "output_tokens": 324,
+        "total_tokens": 482
+      }
+    },
+    {
+      "index": 108,
+      "expected": 3.0,
+      "predicted": 3.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 235,
+        "output_tokens": 355,
+        "total_tokens": 590
+      }
+    },
+    {
+      "index": 109,
+      "expected": 50.0,
+      "predicted": 50.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 194,
+        "output_tokens": 353,
+        "total_tokens": 547
+      }
+    },
+    {
+      "index": 110,
+      "expected": 28.0,
+      "predicted": 28.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 173,
+        "output_tokens": 190,
+        "total_tokens": 363
+      }
+    },
+    {
+      "index": 111,
+      "expected": 45.0,
+      "predicted": 45.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 204,
+        "output_tokens": 263,
+        "total_tokens": 467
+      }
+    },
+    {
+      "index": 112,
+      "expected": 16.0,
+      "predicted": 16.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 183,
+        "output_tokens": 248,
+        "total_tokens": 431
+      }
+    },
+    {
+      "index": 113,
+      "expected": 24.0,
+      "predicted": 24.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 172,
+        "output_tokens": 145,
+        "total_tokens": 317
+      }
+    },
+    {
+      "index": 114,
+      "expected": 25.0,
+      "predicted": 25.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 144,
+        "output_tokens": 19,
+        "total_tokens": 163
+      }
+    },
+    {
+      "index": 115,
+      "expected": 6.0,
+      "predicted": 6.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 201,
+        "output_tokens": 257,
+        "total_tokens": 458
+      }
+    },
+    {
+      "index": 116,
+      "expected": 90.0,
+      "predicted": 90.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 207,
+        "output_tokens": 393,
+        "total_tokens": 600
+      }
+    },
+    {
+      "index": 117,
+      "expected": 42.0,
+      "predicted": 42.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 166,
+        "output_tokens": 216,
+        "total_tokens": 382
+      }
+    },
+    {
+      "index": 118,
+      "expected": 360.0,
+      "predicted": 360.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 144,
+        "output_tokens": 125,
+        "total_tokens": 269
+      }
+    },
+    {
+      "index": 119,
+      "expected": 4.0,
+      "predicted": 4.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 186,
+        "output_tokens": 209,
+        "total_tokens": 395
+      }
+    },
+    {
+      "index": 120,
+      "expected": 95200.0,
+      "predicted": 1.0,
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 199,
+        "output_tokens": 8192,
+        "total_tokens": 8391
+      }
+    },
+    {
+      "index": 121,
+      "expected": 240.0,
+      "predicted": 240.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 153,
+        "output_tokens": 174,
+        "total_tokens": 327
+      }
+    },
+    {
+      "index": 122,
+      "expected": 27.0,
+      "predicted": 27.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 165,
+        "output_tokens": 220,
+        "total_tokens": 385
+      }
+    },
+    {
+      "index": 123,
+      "expected": 48.0,
+      "predicted": 48.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 175,
+        "output_tokens": 264,
+        "total_tokens": 439
+      }
+    },
+    {
+      "index": 124,
+      "expected": 50.0,
+      "predicted": 50.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 151,
+        "output_tokens": 226,
+        "total_tokens": 377
+      }
+    },
+    {
+      "index": 125,
+      "expected": 10.0,
+      "predicted": 10.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 186,
+        "output_tokens": 239,
+        "total_tokens": 425
+      }
+    },
+    {
+      "index": 126,
+      "expected": 10.0,
+      "predicted": 10.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 224,
+        "output_tokens": 238,
+        "total_tokens": 462
+      }
+    },
+    {
+      "index": 127,
+      "expected": 82.0,
+      "predicted": 82.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 155,
+        "output_tokens": 19,
+        "total_tokens": 174
+      }
+    },
+    {
+      "index": 128,
+      "expected": 120.0,
+      "predicted": 120.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 149,
+        "output_tokens": 167,
+        "total_tokens": 316
+      }
+    },
+    {
+      "index": 129,
+      "expected": 880.0,
+      "predicted": 880.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 198,
+        "output_tokens": 333,
+        "total_tokens": 531
+      }
+    },
+    {
+      "index": 130,
+      "expected": 10000.0,
+      "predicted": 10000.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 177,
+        "output_tokens": 407,
+        "total_tokens": 584
+      }
+    },
+    {
+      "index": 131,
+      "expected": 30.0,
+      "predicted": 30.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 168,
+        "output_tokens": 175,
+        "total_tokens": 343
+      }
+    },
+    {
+      "index": 132,
+      "expected": 940.0,
+      "predicted": 940.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 148,
+        "output_tokens": 137,
+        "total_tokens": 285
+      }
+    },
+    {
+      "index": 133,
+      "expected": 60.0,
+      "predicted": 60.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 171,
+        "output_tokens": 266,
+        "total_tokens": 437
+      }
+    },
+    {
+      "index": 134,
+      "expected": 13.0,
+      "predicted": 13.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 160,
+        "output_tokens": 206,
+        "total_tokens": 366
+      }
+    },
+    {
+      "index": 135,
+      "expected": 720.0,
+      "predicted": 720.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 141,
+        "output_tokens": 20,
+        "total_tokens": 161
+      }
+    },
+    {
+      "index": 136,
+      "expected": 40.0,
+      "predicted": 40.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 161,
+        "output_tokens": 185,
+        "total_tokens": 346
+      }
+    },
+    {
+      "index": 137,
+      "expected": 6.0,
+      "predicted": 6.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 155,
+        "output_tokens": 18,
+        "total_tokens": 173
+      }
+    },
+    {
+      "index": 138,
+      "expected": 29.0,
+      "predicted": 29.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 190,
+        "output_tokens": 322,
+        "total_tokens": 512
+      }
+    },
+    {
+      "index": 139,
+      "expected": 105.0,
+      "predicted": 105.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 187,
+        "output_tokens": 309,
+        "total_tokens": 496
+      }
+    },
+    {
+      "index": 140,
+      "expected": 70.0,
+      "predicted": 70.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 160,
+        "output_tokens": 19,
+        "total_tokens": 179
+      }
+    },
+    {
+      "index": 141,
+      "expected": 20.0,
+      "predicted": 20.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 155,
+        "output_tokens": 240,
+        "total_tokens": 395
+      }
+    },
+    {
+      "index": 142,
+      "expected": 400.0,
+      "predicted": 400.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 154,
+        "output_tokens": 413,
+        "total_tokens": 567
+      }
+    },
+    {
+      "index": 143,
+      "expected": 140.0,
+      "predicted": 140.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 161,
+        "output_tokens": 194,
+        "total_tokens": 355
+      }
+    },
+    {
+      "index": 144,
+      "expected": 16.0,
+      "predicted": 16.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 171,
+        "output_tokens": 256,
+        "total_tokens": 427
+      }
+    },
+    {
+      "index": 145,
+      "expected": 20.0,
+      "predicted": 20.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 244,
+        "output_tokens": 256,
+        "total_tokens": 500
+      }
+    },
+    {
+      "index": 146,
+      "expected": 4000.0,
+      "predicted": 4000.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 158,
+        "output_tokens": 251,
+        "total_tokens": 409
+      }
+    },
+    {
+      "index": 147,
+      "expected": 2125.0,
+      "predicted": 2125.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 196,
+        "output_tokens": 177,
+        "total_tokens": 373
+      }
+    },
+    {
+      "index": 148,
+      "expected": 75.0,
+      "predicted": 75.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 238,
+        "output_tokens": 439,
+        "total_tokens": 677
+      }
+    },
+    {
+      "index": 149,
+      "expected": 30.0,
+      "predicted": 30.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 181,
+        "output_tokens": 201,
+        "total_tokens": 382
+      }
+    },
+    {
+      "index": 150,
+      "expected": 16.0,
+      "predicted": 16.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 155,
+        "output_tokens": 235,
+        "total_tokens": 390
+      }
+    },
+    {
+      "index": 151,
+      "expected": 4.0,
+      "predicted": 4.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 207,
+        "output_tokens": 394,
+        "total_tokens": 601
+      }
+    },
+    {
+      "index": 152,
+      "expected": 5.0,
+      "predicted": 5.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 203,
+        "output_tokens": 350,
+        "total_tokens": 553
+      }
+    },
+    {
+      "index": 153,
+      "expected": 4.0,
+      "predicted": 4.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 155,
+        "output_tokens": 180,
+        "total_tokens": 335
+      }
+    },
+    {
+      "index": 154,
+      "expected": 48.0,
+      "predicted": 48.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 213,
+        "output_tokens": 435,
+        "total_tokens": 648
+      }
+    },
+    {
+      "index": 155,
+      "expected": 272.0,
+      "predicted": 272.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 183,
+        "output_tokens": 346,
+        "total_tokens": 529
+      }
+    },
+    {
+      "index": 156,
+      "expected": 280.0,
+      "predicted": 280.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 182,
+        "output_tokens": 340,
+        "total_tokens": 522
+      }
+    },
+    {
+      "index": 157,
+      "expected": 1400.0,
+      "predicted": 1400.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 186,
+        "output_tokens": 196,
+        "total_tokens": 382
+      }
+    },
+    {
+      "index": 158,
+      "expected": 80.0,
+      "predicted": 80.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 219,
+        "output_tokens": 415,
+        "total_tokens": 634
+      }
+    },
+    {
+      "index": 159,
+      "expected": 34.0,
+      "predicted": 34.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 165,
+        "output_tokens": 132,
+        "total_tokens": 297
+      }
+    },
+    {
+      "index": 160,
+      "expected": 15.0,
+      "predicted": 15.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 169,
+        "output_tokens": 789,
+        "total_tokens": 958
+      }
+    },
+    {
+      "index": 161,
+      "expected": 16.0,
+      "predicted": 16.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 170,
+        "output_tokens": 190,
+        "total_tokens": 360
+      }
+    },
+    {
+      "index": 162,
+      "expected": 32.0,
+      "predicted": 32.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 180,
+        "output_tokens": 263,
+        "total_tokens": 443
+      }
+    },
+    {
+      "index": 163,
+      "expected": 92.0,
+      "predicted": 92.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 154,
+        "output_tokens": 280,
+        "total_tokens": 434
+      }
+    },
+    {
+      "index": 164,
+      "expected": 50.0,
+      "predicted": 50.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 170,
+        "output_tokens": 246,
+        "total_tokens": 416
+      }
+    },
+    {
+      "index": 165,
+      "expected": 15.0,
+      "predicted": 15.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 182,
+        "output_tokens": 267,
+        "total_tokens": 449
+      }
+    },
+    {
+      "index": 166,
+      "expected": 77.0,
+      "predicted": 77.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 230,
+        "output_tokens": 256,
+        "total_tokens": 486
+      }
+    },
+    {
+      "index": 167,
+      "expected": 5.0,
+      "predicted": 5.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 175,
+        "output_tokens": 161,
+        "total_tokens": 336
+      }
+    },
+    {
+      "index": 168,
+      "expected": 16.0,
+      "predicted": 16.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 143,
+        "output_tokens": 19,
+        "total_tokens": 162
+      }
+    },
+    {
+      "index": 169,
+      "expected": 18.0,
+      "predicted": 18.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 140,
+        "output_tokens": 19,
+        "total_tokens": 159
+      }
+    },
+    {
+      "index": 170,
+      "expected": 120.0,
+      "predicted": 120.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 145,
+        "output_tokens": 20,
+        "total_tokens": 165
+      }
+    },
+    {
+      "index": 171,
+      "expected": 150.0,
+      "predicted": 150.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 169,
+        "output_tokens": 227,
+        "total_tokens": 396
+      }
+    },
+    {
+      "index": 172,
+      "expected": 1210.0,
+      "predicted": 1210.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 166,
+        "output_tokens": 204,
+        "total_tokens": 370
+      }
+    },
+    {
+      "index": 173,
+      "expected": 51.0,
+      "predicted": 51.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 177,
+        "output_tokens": 278,
+        "total_tokens": 455
+      }
+    },
+    {
+      "index": 174,
+      "expected": 18000.0,
+      "predicted": 18000.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 197,
+        "output_tokens": 250,
+        "total_tokens": 447
+      }
+    },
+    {
+      "index": 175,
+      "expected": 95.0,
+      "predicted": 95.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 212,
+        "output_tokens": 333,
+        "total_tokens": 545
+      }
+    },
+    {
+      "index": 176,
+      "expected": 15.0,
+      "predicted": 15.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 176,
+        "output_tokens": 281,
+        "total_tokens": 457
+      }
+    },
+    {
+      "index": 177,
+      "expected": 100.0,
+      "predicted": 100.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 159,
+        "output_tokens": 168,
+        "total_tokens": 327
+      }
+    },
+    {
+      "index": 178,
+      "expected": 350.0,
+      "predicted": 350.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 207,
+        "output_tokens": 352,
+        "total_tokens": 559
+      }
+    },
+    {
+      "index": 179,
+      "expected": 122.0,
+      "predicted": 122.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 152,
+        "output_tokens": 201,
+        "total_tokens": 353
+      }
+    },
+    {
+      "index": 180,
+      "expected": 130.0,
+      "predicted": 130.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 156,
+        "output_tokens": 20,
+        "total_tokens": 176
+      }
+    },
+    {
+      "index": 181,
+      "expected": 20.0,
+      "predicted": 20.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 164,
+        "output_tokens": 275,
+        "total_tokens": 439
+      }
+    },
+    {
+      "index": 182,
+      "expected": 160.0,
+      "predicted": 160.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 208,
+        "output_tokens": 221,
+        "total_tokens": 429
+      }
+    },
+    {
+      "index": 183,
+      "expected": 23.0,
+      "predicted": 30.0,
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 151,
+        "output_tokens": 550,
+        "total_tokens": 701
+      }
+    },
+    {
+      "index": 184,
+      "expected": 2.0,
+      "predicted": 2.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 250,
+        "output_tokens": 320,
+        "total_tokens": 570
+      }
+    },
+    {
+      "index": 185,
+      "expected": 25.0,
+      "predicted": 25.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 155,
+        "output_tokens": 378,
+        "total_tokens": 533
+      }
+    },
+    {
+      "index": 186,
+      "expected": 30.0,
+      "predicted": 30.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 154,
+        "output_tokens": 19,
+        "total_tokens": 173
+      }
+    },
+    {
+      "index": 187,
+      "expected": 5.0,
+      "predicted": 5.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 228,
+        "output_tokens": 387,
+        "total_tokens": 615
+      }
+    },
+    {
+      "index": 188,
+      "expected": 106.0,
+      "predicted": 106.12,
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 153,
+        "output_tokens": 543,
+        "total_tokens": 696
+      }
+    },
+    {
+      "index": 189,
+      "expected": 50.0,
+      "predicted": 50.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 183,
+        "output_tokens": 231,
+        "total_tokens": 414
+      }
+    },
+    {
+      "index": 190,
+      "expected": 34.0,
+      "predicted": 34.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 182,
+        "output_tokens": 306,
+        "total_tokens": 488
+      }
+    },
+    {
+      "index": 191,
+      "expected": 360.0,
+      "predicted": 360.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 140,
+        "output_tokens": 20,
+        "total_tokens": 160
+      }
+    },
+    {
+      "index": 192,
+      "expected": 5.0,
+      "predicted": 5.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 151,
+        "output_tokens": 189,
+        "total_tokens": 340
+      }
+    },
+    {
+      "index": 193,
+      "expected": 91.0,
+      "predicted": 91.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 169,
+        "output_tokens": 301,
+        "total_tokens": 470
+      }
+    },
+    {
+      "index": 194,
+      "expected": 24.0,
+      "predicted": 24.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 236,
+        "output_tokens": 293,
+        "total_tokens": 529
+      }
+    },
+    {
+      "index": 195,
+      "expected": 10.0,
+      "predicted": 10.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 152,
+        "output_tokens": 138,
+        "total_tokens": 290
+      }
+    },
+    {
+      "index": 196,
+      "expected": 12.0,
+      "predicted": 12.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 152,
+        "output_tokens": 213,
+        "total_tokens": 365
+      }
+    },
+    {
+      "index": 197,
+      "expected": 120.0,
+      "predicted": 120.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 155,
+        "output_tokens": 127,
+        "total_tokens": 282
+      }
+    },
+    {
+      "index": 198,
+      "expected": 6277.0,
+      "predicted": 6277.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 166,
+        "output_tokens": 184,
+        "total_tokens": 350
+      }
+    },
+    {
+      "index": 199,
+      "expected": 320.0,
+      "predicted": 320.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 190,
+        "output_tokens": 315,
+        "total_tokens": 505
+      }
+    },
+    {
+      "index": 200,
+      "expected": 7500.0,
+      "predicted": 7500.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 193,
+        "output_tokens": 312,
+        "total_tokens": 505
+      }
+    },
+    {
+      "index": 201,
+      "expected": 55.0,
+      "predicted": 55.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 163,
+        "output_tokens": 146,
+        "total_tokens": 309
+      }
+    },
+    {
+      "index": 202,
+      "expected": 114200.0,
+      "predicted": 114200.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 184,
+        "output_tokens": 307,
+        "total_tokens": 491
+      }
+    },
+    {
+      "index": 203,
+      "expected": 100.0,
+      "predicted": 100.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 164,
+        "output_tokens": 141,
+        "total_tokens": 305
+      }
+    },
+    {
+      "index": 204,
+      "expected": 31.0,
+      "predicted": 31.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 207,
+        "output_tokens": 303,
+        "total_tokens": 510
+      }
+    },
+    {
+      "index": 205,
+      "expected": 98.0,
+      "predicted": 98.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 173,
+        "output_tokens": 209,
+        "total_tokens": 382
+      }
+    },
+    {
+      "index": 206,
+      "expected": 98.0,
+      "predicted": 98.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 202,
+        "output_tokens": 637,
+        "total_tokens": 839
+      }
+    },
+    {
+      "index": 207,
+      "expected": 860.0,
+      "predicted": 860.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 191,
+        "output_tokens": 250,
+        "total_tokens": 441
+      }
+    },
+    {
+      "index": 208,
+      "expected": 2600.0,
+      "predicted": 2600.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 170,
+        "output_tokens": 383,
+        "total_tokens": 553
+      }
+    },
+    {
+      "index": 209,
+      "expected": 76.0,
+      "predicted": 76.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 175,
+        "output_tokens": 177,
+        "total_tokens": 352
+      }
+    },
+    {
+      "index": 210,
+      "expected": 145.0,
+      "predicted": 145.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 151,
+        "output_tokens": 393,
+        "total_tokens": 544
+      }
+    },
+    {
+      "index": 211,
+      "expected": 10.0,
+      "predicted": 10.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 214,
+        "output_tokens": 301,
+        "total_tokens": 515
+      }
+    },
+    {
+      "index": 212,
+      "expected": 4.0,
+      "predicted": 4.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 170,
+        "output_tokens": 425,
+        "total_tokens": 595
+      }
+    },
+    {
+      "index": 213,
+      "expected": 5.0,
+      "predicted": 5.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 160,
+        "output_tokens": 231,
+        "total_tokens": 391
+      }
+    },
+    {
+      "index": 214,
+      "expected": 250.0,
+      "predicted": 250.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 174,
+        "output_tokens": 256,
+        "total_tokens": 430
+      }
+    },
+    {
+      "index": 215,
+      "expected": 8.0,
+      "predicted": 8.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 175,
+        "output_tokens": 527,
+        "total_tokens": 702
+      }
+    },
+    {
+      "index": 216,
+      "expected": 44.0,
+      "predicted": 44.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 175,
+        "output_tokens": 197,
+        "total_tokens": 372
+      }
+    },
+    {
+      "index": 217,
+      "expected": 220.0,
+      "predicted": 220.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 169,
+        "output_tokens": 283,
+        "total_tokens": 452
+      }
+    },
+    {
+      "index": 218,
+      "expected": 15.0,
+      "predicted": 15.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 147,
+        "output_tokens": 19,
+        "total_tokens": 166
+      }
+    },
+    {
+      "index": 219,
+      "expected": 45.0,
+      "predicted": 33.0,
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 155,
+        "output_tokens": 19,
+        "total_tokens": 174
+      }
+    },
+    {
+      "index": 220,
+      "expected": 54.0,
+      "predicted": 54.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 172,
+        "output_tokens": 314,
+        "total_tokens": 486
+      }
+    },
+    {
+      "index": 221,
+      "expected": 70.0,
+      "predicted": 70.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 163,
+        "output_tokens": 177,
+        "total_tokens": 340
+      }
+    },
+    {
+      "index": 222,
+      "expected": 90.0,
+      "predicted": 90.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 173,
+        "output_tokens": 173,
+        "total_tokens": 346
+      }
+    },
+    {
+      "index": 223,
+      "expected": 140.0,
+      "predicted": 140.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 141,
+        "output_tokens": 20,
+        "total_tokens": 161
+      }
+    },
+    {
+      "index": 224,
+      "expected": 20000.0,
+      "predicted": 20000.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 161,
+        "output_tokens": 22,
+        "total_tokens": 183
+      }
+    },
+    {
+      "index": 225,
+      "expected": 180.0,
+      "predicted": 180.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 179,
+        "output_tokens": 194,
+        "total_tokens": 373
+      }
+    },
+    {
+      "index": 226,
+      "expected": 9.0,
+      "predicted": 9.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 171,
+        "output_tokens": 181,
+        "total_tokens": 352
+      }
+    },
+    {
+      "index": 227,
+      "expected": 33.0,
+      "predicted": 33.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 183,
+        "output_tokens": 369,
+        "total_tokens": 552
+      }
+    },
+    {
+      "index": 228,
+      "expected": 9.0,
+      "predicted": 9.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 227,
+        "output_tokens": 296,
+        "total_tokens": 523
+      }
+    },
+    {
+      "index": 229,
+      "expected": 1.0,
+      "predicted": 1.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 169,
+        "output_tokens": 232,
+        "total_tokens": 401
+      }
+    },
+    {
+      "index": 230,
+      "expected": 21.0,
+      "predicted": 21.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 198,
+        "output_tokens": 241,
+        "total_tokens": 439
+      }
+    },
+    {
+      "index": 231,
+      "expected": 276000.0,
+      "predicted": 276000.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 175,
+        "output_tokens": 277,
+        "total_tokens": 452
+      }
+    },
+    {
+      "index": 232,
+      "expected": 50.0,
+      "predicted": 50.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 171,
+        "output_tokens": 985,
+        "total_tokens": 1156
+      }
+    },
+    {
+      "index": 233,
+      "expected": 75.0,
+      "predicted": 75.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 154,
+        "output_tokens": 164,
+        "total_tokens": 318
+      }
+    },
+    {
+      "index": 234,
+      "expected": 12.0,
+      "predicted": 12.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 164,
+        "output_tokens": 294,
+        "total_tokens": 458
+      }
+    },
+    {
+      "index": 235,
+      "expected": 21.0,
+      "predicted": 14.0,
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 166,
+        "output_tokens": 255,
+        "total_tokens": 421
+      }
+    },
+    {
+      "index": 236,
+      "expected": 10.0,
+      "predicted": 10.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 171,
+        "output_tokens": 161,
+        "total_tokens": 332
+      }
+    },
+    {
+      "index": 237,
+      "expected": 31.0,
+      "predicted": 31.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 173,
+        "output_tokens": 316,
+        "total_tokens": 489
+      }
+    },
+    {
+      "index": 238,
+      "expected": 90.0,
+      "predicted": 90.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 158,
+        "output_tokens": 116,
+        "total_tokens": 274
+      }
+    },
+    {
+      "index": 239,
+      "expected": 68.0,
+      "predicted": 68.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 153,
+        "output_tokens": 175,
+        "total_tokens": 328
+      }
+    },
+    {
+      "index": 240,
+      "expected": 280.0,
+      "predicted": 280.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 202,
+        "output_tokens": 296,
+        "total_tokens": 498
+      }
+    },
+    {
+      "index": 241,
+      "expected": 21.0,
+      "predicted": 21.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 150,
+        "output_tokens": 261,
+        "total_tokens": 411
+      }
+    },
+    {
+      "index": 242,
+      "expected": 6.0,
+      "predicted": 3.0,
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 151,
+        "output_tokens": 197,
+        "total_tokens": 348
+      }
+    },
+    {
+      "index": 243,
+      "expected": 3.0,
+      "predicted": 3.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 181,
+        "output_tokens": 350,
+        "total_tokens": 531
+      }
+    },
+    {
+      "index": 244,
+      "expected": 250.0,
+      "predicted": 250.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 179,
+        "output_tokens": 256,
+        "total_tokens": 435
+      }
+    },
+    {
+      "index": 245,
+      "expected": 20.0,
+      "predicted": 20.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 189,
+        "output_tokens": 311,
+        "total_tokens": 500
+      }
+    },
+    {
+      "index": 246,
+      "expected": 7.0,
+      "predicted": 7.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 176,
+        "output_tokens": 343,
+        "total_tokens": 519
+      }
+    },
+    {
+      "index": 247,
+      "expected": 27000.0,
+      "predicted": 27000.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 202,
+        "output_tokens": 308,
+        "total_tokens": 510
+      }
+    },
+    {
+      "index": 248,
+      "expected": 32.0,
+      "predicted": 32.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 190,
+        "output_tokens": 274,
+        "total_tokens": 464
+      }
+    },
+    {
+      "index": 249,
+      "expected": 300.0,
+      "predicted": 300.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 149,
+        "output_tokens": 20,
+        "total_tokens": 169
+      }
+    },
+    {
+      "index": 250,
+      "expected": 5600.0,
+      "predicted": 5600.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 180,
+        "output_tokens": 273,
+        "total_tokens": 453
+      }
+    }
+  ]
+}

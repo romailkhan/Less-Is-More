@@ -1,0 +1,31 @@
+=== PUZZLE INPUT ===
+Q: There are 2 houses next to each other, numbered 1 on the left and 2 on the right. There is one person living in each house. The people in these houses have different characteristics:
+ - Each person has different flowers in their foyer: one has a bouquet of lilies and one has a bouquet of daffodils
+ - Each person plays a different musical instrument: one is a flutist and one is a saxophonist
+ - Each person has a different kind of car: one drives a convertible and one owns a sedan
+
+Clue(s):
+1. The person who owns a sedan lives somewhere to the left of the person who has a bouquet of lilies.
+2. The flutist does not live in the first house.
+
+What is the number of the house where the person who has a bouquet of lilies lives?
+  choice: 2
+  choice: 1
+A:
+
+=== CORRECT TARGET ===
+['2']
+
+=== AGENT RAW RESPONSE ===
+{
+  "initial_query": "Q: There are 2 houses next to each other, numbered 1 on the left and 2 on the right. There is one person living in each house. The people in these houses have different characteristics:\n - Each person has different flowers in their foyer: one has a bouquet of lilies and one has a bouquet of daffodils\n - Each person plays a different musical instrument: one is a flutist and one is a saxophonist\n - Each person has a different kind of car: one drives a convertible and one owns a sedan\n\nClue(s):\n1. The person who owns a sedan lives somewhere to the left of the person who has a bouquet of lilies.\n2. The flutist does not live in the first house.\n\nWhat is the number of the house where the person who has a bouquet of lilies lives?\n  choice: 2\n  choice: 1\nA:",
+  "agents": {
+    "reasoning": {
+      "final_answer": "The person who has a bouquet of lilies lives in house number 2."
+    }
+  }
+}
+
+=== EVALUATION ===
+Extracted Answer: None
+Is Correct: False

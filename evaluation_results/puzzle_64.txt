@@ -1,0 +1,32 @@
+=== PUZZLE INPUT ===
+Q: There are 2 houses next to each other, numbered 1 on the left and 2 on the right. There is one person living in each house. The people in these houses have different characteristics:
+ - Each person is eating a different kind of fruit: one is eating grapes and one is eating mangos
+ - Each person has a different kind of car: one drives a convertible and one drives a minivan
+ - Each person plays a different sport: one is a cricketer and one is a baseball player
+
+Clue(s):
+1. The person who is eating grapes does not live in the first house.
+2. The baseball player lives in the second house.
+3. The person who drives a convertible lives in the second house.
+
+What is the number of the house where the person who is eating mangos lives?
+  choice: 2
+  choice: 1
+A:
+
+=== CORRECT TARGET ===
+['1']
+
+=== AGENT RAW RESPONSE ===
+{
+  "initial_query": "Q: There are 2 houses next to each other, numbered 1 on the left and 2 on the right. There is one person living in each house. The people in these houses have different characteristics:\n - Each person is eating a different kind of fruit: one is eating grapes and one is eating mangos\n - Each person has a different kind of car: one drives a convertible and one drives a minivan\n - Each person plays a different sport: one is a cricketer and one is a baseball player\n\nClue(s):\n1. The person who is eating grapes does not live in the first house.\n2. The baseball player lives in the second house.\n3. The person who drives a convertible lives in the second house.\n\nWhat is the number of the house where the person who is eating mangos lives?\n  choice: 2\n  choice: 1\nA:",
+  "agents": {
+    "reasoning": {
+      "final_answer": "The person eating mangos lives in house number 1."
+    }
+  }
+}
+
+=== EVALUATION ===
+Extracted Answer: None
+Is Correct: False

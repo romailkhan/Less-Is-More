@@ -1,0 +1,2615 @@
+{
+  "benchmark": "logic_grid",
+  "mode": "single",
+  "data_source": "auto",
+  "accuracy": 0.94,
+  "correct": 188,
+  "total": 200,
+  "token_usage_total": {
+    "input_tokens": 94769,
+    "output_tokens": 274121,
+    "total_tokens": 368890
+  },
+  "rows": [
+    {
+      "idx": 0,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 367,
+        "output_tokens": 776,
+        "total_tokens": 1143
+      }
+    },
+    {
+      "idx": 1,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 488,
+        "output_tokens": 4099,
+        "total_tokens": 4587
+      }
+    },
+    {
+      "idx": 2,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 741,
+        "output_tokens": 1578,
+        "total_tokens": 2319
+      }
+    },
+    {
+      "idx": 3,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 609,
+        "output_tokens": 3334,
+        "total_tokens": 3943
+      }
+    },
+    {
+      "idx": 4,
+      "targets": [
+        "5"
+      ],
+      "predicted": "5",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 407,
+        "output_tokens": 743,
+        "total_tokens": 1150
+      }
+    },
+    {
+      "idx": 5,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 390,
+        "output_tokens": 669,
+        "total_tokens": 1059
+      }
+    },
+    {
+      "idx": 6,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 510,
+        "output_tokens": 744,
+        "total_tokens": 1254
+      }
+    },
+    {
+      "idx": 7,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 481,
+        "output_tokens": 700,
+        "total_tokens": 1181
+      }
+    },
+    {
+      "idx": 8,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 678,
+        "output_tokens": 1578,
+        "total_tokens": 2256
+      }
+    },
+    {
+      "idx": 9,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 303,
+        "output_tokens": 332,
+        "total_tokens": 635
+      }
+    },
+    {
+      "idx": 10,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 352,
+        "output_tokens": 654,
+        "total_tokens": 1006
+      }
+    },
+    {
+      "idx": 11,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 371,
+        "output_tokens": 1070,
+        "total_tokens": 1441
+      }
+    },
+    {
+      "idx": 12,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 315,
+        "output_tokens": 451,
+        "total_tokens": 766
+      }
+    },
+    {
+      "idx": 13,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 454,
+        "output_tokens": 711,
+        "total_tokens": 1165
+      }
+    },
+    {
+      "idx": 14,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 359,
+        "output_tokens": 413,
+        "total_tokens": 772
+      }
+    },
+    {
+      "idx": 15,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 740,
+        "output_tokens": 2366,
+        "total_tokens": 3106
+      }
+    },
+    {
+      "idx": 16,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 578,
+        "output_tokens": 694,
+        "total_tokens": 1272
+      }
+    },
+    {
+      "idx": 17,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 581,
+        "output_tokens": 1381,
+        "total_tokens": 1962
+      }
+    },
+    {
+      "idx": 18,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 384,
+        "output_tokens": 1270,
+        "total_tokens": 1654
+      }
+    },
+    {
+      "idx": 19,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 316,
+        "output_tokens": 378,
+        "total_tokens": 694
+      }
+    },
+    {
+      "idx": 20,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 533,
+        "output_tokens": 827,
+        "total_tokens": 1360
+      }
+    },
+    {
+      "idx": 21,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 378,
+        "output_tokens": 670,
+        "total_tokens": 1048
+      }
+    },
+    {
+      "idx": 22,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 469,
+        "output_tokens": 759,
+        "total_tokens": 1228
+      }
+    },
+    {
+      "idx": 23,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 535,
+        "output_tokens": 855,
+        "total_tokens": 1390
+      }
+    },
+    {
+      "idx": 24,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 460,
+        "output_tokens": 880,
+        "total_tokens": 1340
+      }
+    },
+    {
+      "idx": 25,
+      "targets": [
+        "4"
+      ],
+      "predicted": "Error: Parsing failed. Response: To solve this logic puzzle, we will map out the five houses and use the clues to fill in the characteristics (Car, Drink, Fruit, Color).\n\n**Initial Setup:**\nHouses: 1, 2, 3, 4, 5\n\n**Step 1: Direct Clues**\n- Clue 2: House 3 is eating **Apples**.\n- Clue 7: House 3 drinks **Milk**.\n- Clue 4: The person who likes milk (House 3) and the person eating a banana live next to each other. So, Banana is in House 2 or House 4.\n\n**Step 2: Analyzing Drink/Color/Fruit relationships**\n- Clue 9: Red is left of Water.\n- Clue 5: Water is directly left of Yellow. (Sequence: Red ... Water, Yellow).\n- Clue 10: Convertible is left of Red. (Sequence: Convertible ... Red ... Water, Yellow).\n- Clue 3: Red is not in House 3.\n- Clue 1: Tea is not in House 1.\n\nLet's test positions for Red, Water, and Yellow:\n- If Red",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 620,
+        "output_tokens": 8192,
+        "total_tokens": 8812
+      }
+    },
+    {
+      "idx": 26,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 353,
+        "output_tokens": 398,
+        "total_tokens": 751
+      }
+    },
+    {
+      "idx": 27,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 317,
+        "output_tokens": 359,
+        "total_tokens": 676
+      }
+    },
+    {
+      "idx": 28,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 551,
+        "output_tokens": 1147,
+        "total_tokens": 1698
+      }
+    },
+    {
+      "idx": 29,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 338,
+        "output_tokens": 371,
+        "total_tokens": 709
+      }
+    },
+    {
+      "idx": 30,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 824,
+        "output_tokens": 1647,
+        "total_tokens": 2471
+      }
+    },
+    {
+      "idx": 31,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 465,
+        "output_tokens": 778,
+        "total_tokens": 1243
+      }
+    },
+    {
+      "idx": 32,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 410,
+        "output_tokens": 19,
+        "total_tokens": 429
+      }
+    },
+    {
+      "idx": 33,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 353,
+        "output_tokens": 722,
+        "total_tokens": 1075
+      }
+    },
+    {
+      "idx": 34,
+      "targets": [
+        "5"
+      ],
+      "predicted": "5",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 805,
+        "output_tokens": 1292,
+        "total_tokens": 2097
+      }
+    },
+    {
+      "idx": 35,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 508,
+        "output_tokens": 853,
+        "total_tokens": 1361
+      }
+    },
+    {
+      "idx": 36,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 514,
+        "output_tokens": 881,
+        "total_tokens": 1395
+      }
+    },
+    {
+      "idx": 37,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 533,
+        "output_tokens": 1807,
+        "total_tokens": 2340
+      }
+    },
+    {
+      "idx": 38,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 414,
+        "output_tokens": 777,
+        "total_tokens": 1191
+      }
+    },
+    {
+      "idx": 39,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 324,
+        "output_tokens": 420,
+        "total_tokens": 744
+      }
+    },
+    {
+      "idx": 40,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 609,
+        "output_tokens": 403,
+        "total_tokens": 1012
+      }
+    },
+    {
+      "idx": 41,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 482,
+        "output_tokens": 699,
+        "total_tokens": 1181
+      }
+    },
+    {
+      "idx": 42,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 476,
+        "output_tokens": 754,
+        "total_tokens": 1230
+      }
+    },
+    {
+      "idx": 43,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 371,
+        "output_tokens": 454,
+        "total_tokens": 825
+      }
+    },
+    {
+      "idx": 44,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 518,
+        "output_tokens": 898,
+        "total_tokens": 1416
+      }
+    },
+    {
+      "idx": 45,
+      "targets": [
+        "4"
+      ],
+      "predicted": "Error: Parsing failed. Response: To solve this logic grid puzzle, we will map out the five houses and use the clues to fill in the attributes (Shoes, Color, Device, Pet, Lunch).\n\n**Initial Setup:**\n- Houses: 1, 2, 3, 4, 5\n- Clue 1: House 3 = Yellow.\n- Clue 17: House 4 = Blue.\n- Clue 12: House 2 = High Heels.\n- Clue 10: House 5 = Grilled Cheese.\n\n**Step-by-Step Deduction:**\n1.  **Colors:**\n    - House 3 is Yellow, House 4 is Blue.\n    - Clue 5: White is not in House 2.\n    - Clue 13: Red is not in House 5.\n    - Clue 19: Stew is to the right of White.\n    - If White is in House 1: Stew could be in 2, 4, or 5 (but 5 is Grilled Cheese).\n    - If White is in House 5: Impossible (Stew must be to its right).\n    - Let's look at Red and Green. Red is not in 5.\n    - Possible colors for House 5: Green or White. But if White is in",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 750,
+        "output_tokens": 8192,
+        "total_tokens": 8942
+      }
+    },
+    {
+      "idx": 46,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 282,
+        "output_tokens": 270,
+        "total_tokens": 552
+      }
+    },
+    {
+      "idx": 47,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 365,
+        "output_tokens": 529,
+        "total_tokens": 894
+      }
+    },
+    {
+      "idx": 48,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 507,
+        "output_tokens": 1259,
+        "total_tokens": 1766
+      }
+    },
+    {
+      "idx": 49,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 374,
+        "output_tokens": 440,
+        "total_tokens": 814
+      }
+    },
+    {
+      "idx": 50,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 403,
+        "output_tokens": 891,
+        "total_tokens": 1294
+      }
+    },
+    {
+      "idx": 51,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 372,
+        "output_tokens": 452,
+        "total_tokens": 824
+      }
+    },
+    {
+      "idx": 52,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 337,
+        "output_tokens": 588,
+        "total_tokens": 925
+      }
+    },
+    {
+      "idx": 53,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 328,
+        "output_tokens": 439,
+        "total_tokens": 767
+      }
+    },
+    {
+      "idx": 54,
+      "targets": [
+        "5"
+      ],
+      "predicted": "5",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 791,
+        "output_tokens": 2172,
+        "total_tokens": 2963
+      }
+    },
+    {
+      "idx": 55,
+      "targets": [
+        "4"
+      ],
+      "predicted": "3",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 648,
+        "output_tokens": 2995,
+        "total_tokens": 3643
+      }
+    },
+    {
+      "idx": 56,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 274,
+        "output_tokens": 245,
+        "total_tokens": 519
+      }
+    },
+    {
+      "idx": 57,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 629,
+        "output_tokens": 1689,
+        "total_tokens": 2318
+      }
+    },
+    {
+      "idx": 58,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 577,
+        "output_tokens": 1265,
+        "total_tokens": 1842
+      }
+    },
+    {
+      "idx": 59,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 465,
+        "output_tokens": 885,
+        "total_tokens": 1350
+      }
+    },
+    {
+      "idx": 60,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 749,
+        "output_tokens": 2267,
+        "total_tokens": 3016
+      }
+    },
+    {
+      "idx": 61,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 391,
+        "output_tokens": 447,
+        "total_tokens": 838
+      }
+    },
+    {
+      "idx": 62,
+      "targets": [
+        "5"
+      ],
+      "predicted": "5",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 610,
+        "output_tokens": 1958,
+        "total_tokens": 2568
+      }
+    },
+    {
+      "idx": 63,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 633,
+        "output_tokens": 1503,
+        "total_tokens": 2136
+      }
+    },
+    {
+      "idx": 64,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 313,
+        "output_tokens": 308,
+        "total_tokens": 621
+      }
+    },
+    {
+      "idx": 65,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 336,
+        "output_tokens": 423,
+        "total_tokens": 759
+      }
+    },
+    {
+      "idx": 66,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 370,
+        "output_tokens": 540,
+        "total_tokens": 910
+      }
+    },
+    {
+      "idx": 67,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 366,
+        "output_tokens": 581,
+        "total_tokens": 947
+      }
+    },
+    {
+      "idx": 68,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 361,
+        "output_tokens": 579,
+        "total_tokens": 940
+      }
+    },
+    {
+      "idx": 69,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 460,
+        "output_tokens": 951,
+        "total_tokens": 1411
+      }
+    },
+    {
+      "idx": 70,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 694,
+        "output_tokens": 1380,
+        "total_tokens": 2074
+      }
+    },
+    {
+      "idx": 71,
+      "targets": [
+        "5"
+      ],
+      "predicted": "Error: Parsing failed. Response: To solve this puzzle, we will map out the five houses and use the clues to fill in the characteristics (Sport, Fruit, Book, Color).\n\n**Houses:** 1, 2, 3, 4, 5\n\n**Clues Analysis:**\n1.  **Clue 7:** Blue is in House 5.\n2.  **Clue 8 & 9:** The cricketer lives directly left of the person who likes white AND directly left of the fantasy book enthusiast. This means the person in the house to the right of the cricketer likes white and reads fantasy books.\n3.  **Clue 3:** The cricketer lives somewhere to the left of the person who likes yellow.\n4.  **Clue 10 & 13:** There are two houses between Romance and Tennis. There are two houses between Romance and Mystery.\n    *   If Romance is in House 1, Tennis is in House 4, and Mystery is in House 4. (Impossible, books are unique).\n    *   If Romance is",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 615,
+        "output_tokens": 8192,
+        "total_tokens": 8807
+      }
+    },
+    {
+      "idx": 72,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 294,
+        "output_tokens": 246,
+        "total_tokens": 540
+      }
+    },
+    {
+      "idx": 73,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 387,
+        "output_tokens": 571,
+        "total_tokens": 958
+      }
+    },
+    {
+      "idx": 74,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 448,
+        "output_tokens": 1171,
+        "total_tokens": 1619
+      }
+    },
+    {
+      "idx": 75,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 535,
+        "output_tokens": 888,
+        "total_tokens": 1423
+      }
+    },
+    {
+      "idx": 76,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 382,
+        "output_tokens": 440,
+        "total_tokens": 822
+      }
+    },
+    {
+      "idx": 77,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 442,
+        "output_tokens": 1208,
+        "total_tokens": 1650
+      }
+    },
+    {
+      "idx": 78,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 600,
+        "output_tokens": 1114,
+        "total_tokens": 1714
+      }
+    },
+    {
+      "idx": 79,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 788,
+        "output_tokens": 4381,
+        "total_tokens": 5169
+      }
+    },
+    {
+      "idx": 80,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 380,
+        "output_tokens": 541,
+        "total_tokens": 921
+      }
+    },
+    {
+      "idx": 81,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 522,
+        "output_tokens": 613,
+        "total_tokens": 1135
+      }
+    },
+    {
+      "idx": 82,
+      "targets": [
+        "2"
+      ],
+      "predicted": "Error: Parsing failed. Response: To solve this logic grid puzzle, let's map out the houses (1, 2, 3, 4) and the attributes (Shoes, Lunch, Drink).\n\n**Clues Analysis:**\n1. **Tea drinker** = House 3.\n2. **Stew** < **Spaghetti** (Stew is to the left of Spaghetti).\n3. **Sandals** < **Root Beer** (Sandals is to the left of Root Beer).\n4. **Grilled Cheese** < **Water** (Grilled Cheese is to the left of Water).\n5. **Running Shoes** < **Stew** (Running Shoes is to the left of Stew).\n6. **High Heels** and **Water** are neighbors.\n7. **Grilled Cheese** $\\neq$ House 1.\n\n**Step-by-Step Deduction:**\n- From Clue 5: Running Shoes < Stew.\n- From Clue 2: Stew < Spaghetti.\n- This creates a chain: **Running Shoes < Stew < Spaghetti**.\n- Since there are 4 houses, the positions for this chain can be:\n    - (1, 2, 3)\n    - (1, 2, 4)\n    - (1, 3",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 446,
+        "output_tokens": 8192,
+        "total_tokens": 8638
+      }
+    },
+    {
+      "idx": 83,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 603,
+        "output_tokens": 1157,
+        "total_tokens": 1760
+      }
+    },
+    {
+      "idx": 84,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 269,
+        "output_tokens": 290,
+        "total_tokens": 559
+      }
+    },
+    {
+      "idx": 85,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 322,
+        "output_tokens": 347,
+        "total_tokens": 669
+      }
+    },
+    {
+      "idx": 86,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 428,
+        "output_tokens": 1154,
+        "total_tokens": 1582
+      }
+    },
+    {
+      "idx": 87,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 468,
+        "output_tokens": 617,
+        "total_tokens": 1085
+      }
+    },
+    {
+      "idx": 88,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 331,
+        "output_tokens": 482,
+        "total_tokens": 813
+      }
+    },
+    {
+      "idx": 89,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 458,
+        "output_tokens": 719,
+        "total_tokens": 1177
+      }
+    },
+    {
+      "idx": 90,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 352,
+        "output_tokens": 416,
+        "total_tokens": 768
+      }
+    },
+    {
+      "idx": 91,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 525,
+        "output_tokens": 1031,
+        "total_tokens": 1556
+      }
+    },
+    {
+      "idx": 92,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 373,
+        "output_tokens": 663,
+        "total_tokens": 1036
+      }
+    },
+    {
+      "idx": 93,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 395,
+        "output_tokens": 508,
+        "total_tokens": 903
+      }
+    },
+    {
+      "idx": 94,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 594,
+        "output_tokens": 1551,
+        "total_tokens": 2145
+      }
+    },
+    {
+      "idx": 95,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 295,
+        "output_tokens": 336,
+        "total_tokens": 631
+      }
+    },
+    {
+      "idx": 96,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 628,
+        "output_tokens": 1403,
+        "total_tokens": 2031
+      }
+    },
+    {
+      "idx": 97,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 672,
+        "output_tokens": 2114,
+        "total_tokens": 2786
+      }
+    },
+    {
+      "idx": 98,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 561,
+        "output_tokens": 1675,
+        "total_tokens": 2236
+      }
+    },
+    {
+      "idx": 99,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 521,
+        "output_tokens": 1135,
+        "total_tokens": 1656
+      }
+    },
+    {
+      "idx": 100,
+      "targets": [
+        "5"
+      ],
+      "predicted": "5",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 422,
+        "output_tokens": 805,
+        "total_tokens": 1227
+      }
+    },
+    {
+      "idx": 101,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 374,
+        "output_tokens": 597,
+        "total_tokens": 971
+      }
+    },
+    {
+      "idx": 102,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 339,
+        "output_tokens": 455,
+        "total_tokens": 794
+      }
+    },
+    {
+      "idx": 103,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 281,
+        "output_tokens": 259,
+        "total_tokens": 540
+      }
+    },
+    {
+      "idx": 104,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 556,
+        "output_tokens": 4065,
+        "total_tokens": 4621
+      }
+    },
+    {
+      "idx": 105,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 329,
+        "output_tokens": 315,
+        "total_tokens": 644
+      }
+    },
+    {
+      "idx": 106,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 700,
+        "output_tokens": 2695,
+        "total_tokens": 3395
+      }
+    },
+    {
+      "idx": 107,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 352,
+        "output_tokens": 708,
+        "total_tokens": 1060
+      }
+    },
+    {
+      "idx": 108,
+      "targets": [
+        "2"
+      ],
+      "predicted": "Error: Parsing failed. Response: To solve this puzzle, we will map out the five houses (1 to 5) and use the clues to fill in the attributes: Instrument, Flower, Drink, and Book.\n\n**Step 1: Direct Clues**\n- Clue 2: House 5 has Tulips.\n- Clue 10: House 4 has Lilies.\n\n**Step 2: Analyze the Violinist and Water (Clue 8)**\n- Clue 8: Violinist is directly left of Water.\n- Clue 3: Violinist is not in House 4.\n- Clue 1: Violinist is to the right of Sci-Fi.\n- Possible positions for (Violinist, Water): (1,2), (2,3), (3,4).\n- If (Violinist, Water) is (3,4): House 3 is Violinist, House 4 is Water.\n- If (Violinist, Water) is (2,3): House 2 is Violinist, House 3 is Water.\n- If (Violinist, Water) is (1,2): House 1 is Violinist, House 2 is Water. (But Clue 1 says Violinist is right of Sci-Fi, so Violinist cannot be in House 1).\n\n**Step 3:",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 654,
+        "output_tokens": 8192,
+        "total_tokens": 8846
+      }
+    },
+    {
+      "idx": 109,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 596,
+        "output_tokens": 970,
+        "total_tokens": 1566
+      }
+    },
+    {
+      "idx": 110,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 374,
+        "output_tokens": 617,
+        "total_tokens": 991
+      }
+    },
+    {
+      "idx": 111,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 492,
+        "output_tokens": 1322,
+        "total_tokens": 1814
+      }
+    },
+    {
+      "idx": 112,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 309,
+        "output_tokens": 319,
+        "total_tokens": 628
+      }
+    },
+    {
+      "idx": 113,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 758,
+        "output_tokens": 6647,
+        "total_tokens": 7405
+      }
+    },
+    {
+      "idx": 114,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 309,
+        "output_tokens": 471,
+        "total_tokens": 780
+      }
+    },
+    {
+      "idx": 115,
+      "targets": [
+        "4"
+      ],
+      "predicted": "Error: Parsing failed. Response: To solve this logic grid puzzle, we will map out the four houses (1, 2, 3, 4) and use the clues to fill in the attributes: Sport, Lunch, Fruit, Pet, and Book.\n\n**Step 1: Analyze Clues for Fixed Positions and Direct Relationships**\n- Clue 8: The **bird keeper** lives in house 3.\n- Clue 1: Swimmer is directly left of Apples (Swimmer: $n$, Apples: $n+1$).\n- Clue 3: Fantasy is directly left of Horses (Fantasy: $n$, Horses: $n+1$).\n- Clue 5: Cat lover is directly left of Spaghetti (Cat: $n$, Spaghetti: $n+1$).\n- Clue 7: Banana is directly left of Soccer (Banana: $n$, Soccer: $n+1$).\n- Clue 9: Sci-Fi is directly left of Pizza (Sci-Fi: $n$, Pizza: $n+1$).\n\n**Step 2: Deduce the sequence of Lunch and Books**\n- Clue 9: Sci-Fi is left of Pizza.\n- Clue 11: Pizza is left of Baseball.\n- This implies a s",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 566,
+        "output_tokens": 8192,
+        "total_tokens": 8758
+      }
+    },
+    {
+      "idx": 116,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 322,
+        "output_tokens": 468,
+        "total_tokens": 790
+      }
+    },
+    {
+      "idx": 117,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 315,
+        "output_tokens": 353,
+        "total_tokens": 668
+      }
+    },
+    {
+      "idx": 118,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 491,
+        "output_tokens": 771,
+        "total_tokens": 1262
+      }
+    },
+    {
+      "idx": 119,
+      "targets": [
+        "5"
+      ],
+      "predicted": "4",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 715,
+        "output_tokens": 1904,
+        "total_tokens": 2619
+      }
+    },
+    {
+      "idx": 120,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 505,
+        "output_tokens": 532,
+        "total_tokens": 1037
+      }
+    },
+    {
+      "idx": 121,
+      "targets": [
+        "5"
+      ],
+      "predicted": "5",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 641,
+        "output_tokens": 1567,
+        "total_tokens": 2208
+      }
+    },
+    {
+      "idx": 122,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 430,
+        "output_tokens": 1183,
+        "total_tokens": 1613
+      }
+    },
+    {
+      "idx": 123,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 356,
+        "output_tokens": 655,
+        "total_tokens": 1011
+      }
+    },
+    {
+      "idx": 124,
+      "targets": [
+        "4"
+      ],
+      "predicted": "Error: Parsing failed. Response: To solve this logic grid puzzle, we will map out the five houses (1 to 5) and use the clues to assign the characteristics: Flowers, Instrument, Drink, and Device.\n\n**1. Analyze Clues related to Drinks and Devices:**\n- Clue 1: Computer is directly left of Root Beer.\n- Clue 3: Root Beer and Coffee are neighbors.\n- Clue 10: Milk is left of Coffee.\n- Clue 12: Root Beer is left of Percussionist.\n- Clue 13: Root Beer is left of Lilies.\n- Clue 14: Daffodils is one house away from Coffee.\n\nLet's test positions for Root Beer (RB):\n- If RB is in House 2: Computer is in House 1. Coffee must be in House 1 or 3.\n- If Coffee is in House 3: Milk must be in House 1 or 2. Daffodils must be in House 1 or 5 (Clue 14).\n- If Coffee is in House 1: Not possible (Milk must be left of Coffee).\n\nLet's try a sequenc",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 699,
+        "output_tokens": 8192,
+        "total_tokens": 8891
+      }
+    },
+    {
+      "idx": 125,
+      "targets": [
+        "3"
+      ],
+      "predicted": "Error: Parsing failed. Response: To solve this logic grid puzzle, we will map out the five houses and apply the clues systematically.\n\n**Houses:** 1, 2, 3, 4, 5\n\n**Clues Analysis:**\n1.  **Clue 16 & 3:** The convertible driver is directly left of the fish enthusiast. There is one house between the convertible driver and the bird keeper.\n    *   Possibility A: Bird (1), Convertible (3), Fish (4).\n    *   Possibility B: Convertible (1), Fish (2), Bird (3) - *Wait, Clue 3 says one house between convertible and bird, so if convertible is 1, bird is 3.*\n    *   Possibility C: Bird (2), Convertible (4), Fish (5).\n    *   Possibility D: Convertible (2), Fish (3), Bird (4).\n2.  **Clue 8:** Bird keeper is left of the sedan owner.\n3.  **Clue 12:** Convertible is left of the history buff.\n4.  **Clue 10 & 17:** Fantasy and History are",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 817,
+        "output_tokens": 8192,
+        "total_tokens": 9009
+      }
+    },
+    {
+      "idx": 126,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 733,
+        "output_tokens": 1856,
+        "total_tokens": 2589
+      }
+    },
+    {
+      "idx": 127,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 450,
+        "output_tokens": 1229,
+        "total_tokens": 1679
+      }
+    },
+    {
+      "idx": 128,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 386,
+        "output_tokens": 417,
+        "total_tokens": 803
+      }
+    },
+    {
+      "idx": 129,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 682,
+        "output_tokens": 1841,
+        "total_tokens": 2523
+      }
+    },
+    {
+      "idx": 130,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 646,
+        "output_tokens": 1012,
+        "total_tokens": 1658
+      }
+    },
+    {
+      "idx": 131,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 349,
+        "output_tokens": 476,
+        "total_tokens": 825
+      }
+    },
+    {
+      "idx": 132,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 281,
+        "output_tokens": 284,
+        "total_tokens": 565
+      }
+    },
+    {
+      "idx": 133,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 542,
+        "output_tokens": 788,
+        "total_tokens": 1330
+      }
+    },
+    {
+      "idx": 134,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 274,
+        "output_tokens": 235,
+        "total_tokens": 509
+      }
+    },
+    {
+      "idx": 135,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 488,
+        "output_tokens": 1010,
+        "total_tokens": 1498
+      }
+    },
+    {
+      "idx": 136,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 607,
+        "output_tokens": 1315,
+        "total_tokens": 1922
+      }
+    },
+    {
+      "idx": 137,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 402,
+        "output_tokens": 544,
+        "total_tokens": 946
+      }
+    },
+    {
+      "idx": 138,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 397,
+        "output_tokens": 935,
+        "total_tokens": 1332
+      }
+    },
+    {
+      "idx": 139,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 299,
+        "output_tokens": 358,
+        "total_tokens": 657
+      }
+    },
+    {
+      "idx": 140,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 262,
+        "output_tokens": 295,
+        "total_tokens": 557
+      }
+    },
+    {
+      "idx": 141,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 317,
+        "output_tokens": 515,
+        "total_tokens": 832
+      }
+    },
+    {
+      "idx": 142,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 561,
+        "output_tokens": 1201,
+        "total_tokens": 1762
+      }
+    },
+    {
+      "idx": 143,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 760,
+        "output_tokens": 2168,
+        "total_tokens": 2928
+      }
+    },
+    {
+      "idx": 144,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 338,
+        "output_tokens": 387,
+        "total_tokens": 725
+      }
+    },
+    {
+      "idx": 145,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 271,
+        "output_tokens": 301,
+        "total_tokens": 572
+      }
+    },
+    {
+      "idx": 146,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 338,
+        "output_tokens": 379,
+        "total_tokens": 717
+      }
+    },
+    {
+      "idx": 147,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 351,
+        "output_tokens": 371,
+        "total_tokens": 722
+      }
+    },
+    {
+      "idx": 148,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 320,
+        "output_tokens": 477,
+        "total_tokens": 797
+      }
+    },
+    {
+      "idx": 149,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 421,
+        "output_tokens": 932,
+        "total_tokens": 1353
+      }
+    },
+    {
+      "idx": 150,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 456,
+        "output_tokens": 1053,
+        "total_tokens": 1509
+      }
+    },
+    {
+      "idx": 151,
+      "targets": [
+        "2"
+      ],
+      "predicted": "Error: Parsing failed. Response: To solve this logic grid puzzle, we will map out the five houses and their attributes based on the clues provided.\n\n**Houses:** 1, 2, 3, 4, 5\n\n**Initial Clues:**\n- Clue 16: Tennis player lives in House 1.\n- Clue 17: Percussionist lives in House 4.\n- Clue 8: Bird keeper lives in House 2.\n- Clue 12: Tennis player (H1) and Baseball player are neighbors. So, Baseball player is in House 2.\n- Clue 3: Baseball player (H2) and Fried Rice are neighbors. Fried rice is in H1 or H3.\n- Clue 5: Fried Rice and Oranges are neighbors.\n- Clue 14: Saxophonist and Golfer have one house between them.\n- Clue 11: Saxophonist and Grilled Cheese are neighbors.\n- Clue 1: Pianist is directly left of Horse owner.\n- Clue 18: Pianist is not in H3.\n- Clue 15: Mango is to the right of Horse owner.\n- Clue 9: Horse owner i",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 767,
+        "output_tokens": 8192,
+        "total_tokens": 8959
+      }
+    },
+    {
+      "idx": 152,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 296,
+        "output_tokens": 340,
+        "total_tokens": 636
+      }
+    },
+    {
+      "idx": 153,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 451,
+        "output_tokens": 530,
+        "total_tokens": 981
+      }
+    },
+    {
+      "idx": 154,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 516,
+        "output_tokens": 690,
+        "total_tokens": 1206
+      }
+    },
+    {
+      "idx": 155,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 407,
+        "output_tokens": 753,
+        "total_tokens": 1160
+      }
+    },
+    {
+      "idx": 156,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 363,
+        "output_tokens": 291,
+        "total_tokens": 654
+      }
+    },
+    {
+      "idx": 157,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 382,
+        "output_tokens": 740,
+        "total_tokens": 1122
+      }
+    },
+    {
+      "idx": 158,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 451,
+        "output_tokens": 680,
+        "total_tokens": 1131
+      }
+    },
+    {
+      "idx": 159,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 419,
+        "output_tokens": 570,
+        "total_tokens": 989
+      }
+    },
+    {
+      "idx": 160,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 398,
+        "output_tokens": 1558,
+        "total_tokens": 1956
+      }
+    },
+    {
+      "idx": 161,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 520,
+        "output_tokens": 5076,
+        "total_tokens": 5596
+      }
+    },
+    {
+      "idx": 162,
+      "targets": [
+        "5"
+      ],
+      "predicted": "5",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 760,
+        "output_tokens": 1780,
+        "total_tokens": 2540
+      }
+    },
+    {
+      "idx": 163,
+      "targets": [
+        "5"
+      ],
+      "predicted": "5",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 540,
+        "output_tokens": 1144,
+        "total_tokens": 1684
+      }
+    },
+    {
+      "idx": 164,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 338,
+        "output_tokens": 549,
+        "total_tokens": 887
+      }
+    },
+    {
+      "idx": 165,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 327,
+        "output_tokens": 841,
+        "total_tokens": 1168
+      }
+    },
+    {
+      "idx": 166,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 621,
+        "output_tokens": 1343,
+        "total_tokens": 1964
+      }
+    },
+    {
+      "idx": 167,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 385,
+        "output_tokens": 770,
+        "total_tokens": 1155
+      }
+    },
+    {
+      "idx": 168,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 324,
+        "output_tokens": 508,
+        "total_tokens": 832
+      }
+    },
+    {
+      "idx": 169,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 387,
+        "output_tokens": 680,
+        "total_tokens": 1067
+      }
+    },
+    {
+      "idx": 170,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 549,
+        "output_tokens": 883,
+        "total_tokens": 1432
+      }
+    },
+    {
+      "idx": 171,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 505,
+        "output_tokens": 1117,
+        "total_tokens": 1622
+      }
+    },
+    {
+      "idx": 172,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 463,
+        "output_tokens": 860,
+        "total_tokens": 1323
+      }
+    },
+    {
+      "idx": 173,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 637,
+        "output_tokens": 1570,
+        "total_tokens": 2207
+      }
+    },
+    {
+      "idx": 174,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 388,
+        "output_tokens": 587,
+        "total_tokens": 975
+      }
+    },
+    {
+      "idx": 175,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 432,
+        "output_tokens": 615,
+        "total_tokens": 1047
+      }
+    },
+    {
+      "idx": 176,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 618,
+        "output_tokens": 1262,
+        "total_tokens": 1880
+      }
+    },
+    {
+      "idx": 177,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 430,
+        "output_tokens": 630,
+        "total_tokens": 1060
+      }
+    },
+    {
+      "idx": 178,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 521,
+        "output_tokens": 2012,
+        "total_tokens": 2533
+      }
+    },
+    {
+      "idx": 179,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 401,
+        "output_tokens": 597,
+        "total_tokens": 998
+      }
+    },
+    {
+      "idx": 180,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 725,
+        "output_tokens": 3367,
+        "total_tokens": 4092
+      }
+    },
+    {
+      "idx": 181,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 338,
+        "output_tokens": 19,
+        "total_tokens": 357
+      }
+    },
+    {
+      "idx": 182,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 619,
+        "output_tokens": 1655,
+        "total_tokens": 2274
+      }
+    },
+    {
+      "idx": 183,
+      "targets": [
+        "5"
+      ],
+      "predicted": "Error: Parsing failed. Response: To solve this logic grid puzzle, we will map out the five houses (1 to 5) and use the clues to fill in the attributes: Drink, Flower, Lunch, and Color.\n\n**Step 1: Direct Clues**\n- Clue 2: House 1 drinks Tea.\n- Clue 4: House 5 has Tulips.\n- Clue 5: House 2 has Lilies.\n\n**Step 2: Analyze Clue 8 and Clue 7**\n- Clue 8: Lilies (House 2) is left of Spaghetti. So Spaghetti is in House 3, 4, or 5.\n- Clue 7: Spaghetti is left of Grilled Cheese.\n- If Spaghetti is in House 3, Grilled Cheese is in 4 or 5.\n- If Spaghetti is in House 4, Grilled Cheese is in 5.\n\n**Step 3: Analyze Clue 6 and Clue 12 (Fried Rice, Water, Stew)**\n- Clue 6: Two houses between Fried Rice and Water. (Possible pairs: 1 & 4, 2 & 5).\n- Clue 12: One house between Fried Rice and Stew.\n- Case A: Fried Rice is in House 1. Then Water i",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 649,
+        "output_tokens": 8192,
+        "total_tokens": 8841
+      }
+    },
+    {
+      "idx": 184,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 655,
+        "output_tokens": 1086,
+        "total_tokens": 1741
+      }
+    },
+    {
+      "idx": 185,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 361,
+        "output_tokens": 452,
+        "total_tokens": 813
+      }
+    },
+    {
+      "idx": 186,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 651,
+        "output_tokens": 1919,
+        "total_tokens": 2570
+      }
+    },
+    {
+      "idx": 187,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 569,
+        "output_tokens": 1504,
+        "total_tokens": 2073
+      }
+    },
+    {
+      "idx": 188,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 300,
+        "output_tokens": 456,
+        "total_tokens": 756
+      }
+    },
+    {
+      "idx": 189,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 527,
+        "output_tokens": 1160,
+        "total_tokens": 1687
+      }
+    },
+    {
+      "idx": 190,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 505,
+        "output_tokens": 1723,
+        "total_tokens": 2228
+      }
+    },
+    {
+      "idx": 191,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 284,
+        "output_tokens": 277,
+        "total_tokens": 561
+      }
+    },
+    {
+      "idx": 192,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 529,
+        "output_tokens": 1211,
+        "total_tokens": 1740
+      }
+    },
+    {
+      "idx": 193,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 364,
+        "output_tokens": 464,
+        "total_tokens": 828
+      }
+    },
+    {
+      "idx": 194,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 559,
+        "output_tokens": 1798,
+        "total_tokens": 2357
+      }
+    },
+    {
+      "idx": 195,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 291,
+        "output_tokens": 312,
+        "total_tokens": 603
+      }
+    },
+    {
+      "idx": 196,
+      "targets": [
+        "5"
+      ],
+      "predicted": "5",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 820,
+        "output_tokens": 1646,
+        "total_tokens": 2466
+      }
+    },
+    {
+      "idx": 197,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 371,
+        "output_tokens": 504,
+        "total_tokens": 875
+      }
+    },
+    {
+      "idx": 198,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 484,
+        "output_tokens": 735,
+        "total_tokens": 1219
+      }
+    },
+    {
+      "idx": 199,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 336,
+        "output_tokens": 442,
+        "total_tokens": 778
+      }
+    }
+  ]
+}

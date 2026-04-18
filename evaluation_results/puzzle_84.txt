@@ -1,0 +1,29 @@
+=== PUZZLE INPUT ===
+Q: There are 2 houses next to each other, numbered 1 on the left and 2 on the right. There is one person living in each house. The people in these houses have different characteristics:
+ - Each person ate something different for lunch: one had pizza and one ate fried rice
+ - Everyone likes a different kind of book: one is a science fiction book fanatic and one is a history book buff
+
+Clue(s):
+1. The person who ate fried rice lives somewhere to the right of the science fiction book fanatic.
+
+What is the number of the house where the science fiction book fanatic lives?
+  choice: 2
+  choice: 1
+A:
+
+=== CORRECT TARGET ===
+['1']
+
+=== AGENT RAW RESPONSE ===
+{
+  "initial_query": "Q: There are 2 houses next to each other, numbered 1 on the left and 2 on the right. There is one person living in each house. The people in these houses have different characteristics:\n - Each person ate something different for lunch: one had pizza and one ate fried rice\n - Everyone likes a different kind of book: one is a science fiction book fanatic and one is a history book buff\n\nClue(s):\n1. The person who ate fried rice lives somewhere to the right of the science fiction book fanatic.\n\nWhat is the number of the house where the science fiction book fanatic lives?\n  choice: 2\n  choice: 1\nA:",
+  "agents": {
+    "reasoning": {
+      "final_answer": "The science fiction book fanatic lives in house number 1 because the person who ate fried rice must be in house 2, which is to the right of house 1, satisfying the clue."
+    }
+  }
+}
+
+=== EVALUATION ===
+Extracted Answer: None
+Is Correct: False

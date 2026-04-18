@@ -1,0 +1,30 @@
+=== PUZZLE INPUT ===
+Q: There are 2 houses next to each other, numbered 1 on the left and 2 on the right. There is one person living in each house. The people in these houses have different characteristics:
+ - Everyone likes a different kind of book: one is a mystery book reader and one is a fantasy book enthusiast
+ - Each person plays a different sport: one is a tennis player and one is a golfer
+
+Clue(s):
+1. The mystery book reader lives in the first house.
+2. The tennis player does not live in the first house.
+
+What is the number of the house where the fantasy book enthusiast lives?
+  choice: 2
+  choice: 1
+A:
+
+=== CORRECT TARGET ===
+['2']
+
+=== AGENT RAW RESPONSE ===
+{
+  "initial_query": "Q: There are 2 houses next to each other, numbered 1 on the left and 2 on the right. There is one person living in each house. The people in these houses have different characteristics:\n - Everyone likes a different kind of book: one is a mystery book reader and one is a fantasy book enthusiast\n - Each person plays a different sport: one is a tennis player and one is a golfer\n\nClue(s):\n1. The mystery book reader lives in the first house.\n2. The tennis player does not live in the first house.\n\nWhat is the number of the house where the fantasy book enthusiast lives?\n  choice: 2\n  choice: 1\nA:",
+  "agents": {
+    "reasoning": {
+      "final_answer": "The fantasy book enthusiast lives in house number 2."
+    }
+  }
+}
+
+=== EVALUATION ===
+Extracted Answer: None
+Is Correct: False

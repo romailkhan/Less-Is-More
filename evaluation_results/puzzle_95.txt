@@ -1,0 +1,31 @@
+=== PUZZLE INPUT ===
+Q: There are 2 houses next to each other, numbered 1 on the left and 2 on the right. There is one person living in each house. The people in these houses have different characteristics:
+ - Each person has different pets: one is a dog owner and one is a fish enthusiast
+ - Each person ate something different for lunch: one had stew and one ate grilled cheese
+ - Each person is wearing different shoes: one is wearing high heels and one is wearing sandals
+
+Clue(s):
+1. The person who is wearing high heels lives directly left of the fish enthusiast.
+2. The person who ate grilled cheese lives in the second house.
+
+What is the number of the house where the person who had stew lives?
+  choice: 2
+  choice: 1
+A:
+
+=== CORRECT TARGET ===
+['1']
+
+=== AGENT RAW RESPONSE ===
+{
+  "initial_query": "Q: There are 2 houses next to each other, numbered 1 on the left and 2 on the right. There is one person living in each house. The people in these houses have different characteristics:\n - Each person has different pets: one is a dog owner and one is a fish enthusiast\n - Each person ate something different for lunch: one had stew and one ate grilled cheese\n - Each person is wearing different shoes: one is wearing high heels and one is wearing sandals\n\nClue(s):\n1. The person who is wearing high heels lives directly left of the fish enthusiast.\n2. The person who ate grilled cheese lives in the second house.\n\nWhat is the number of the house where the person who had stew lives?\n  choice: 2\n  choice: 1\nA:",
+  "agents": {
+    "reasoning": {
+      "final_answer": "The person who had stew lives in house number 1."
+    }
+  }
+}
+
+=== EVALUATION ===
+Extracted Answer: None
+Is Correct: False

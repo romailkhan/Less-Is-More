@@ -1,23 +1,28 @@
 from typing import Dict, List
 import json
 from datetime import datetime
-from agents.Reasoning_benchmark import Reasoning_Benchmark
+from agents.Reasoning_benchmark import (
+    Reasoning_Benchmark,
+    TASK_COMMONGEN,
+    TASK_LOGIC_GRID,
+    TASK_MGSM,
+)
 from uuid import uuid4
 import os
 import chromadb
-from chromadb.utils import embedding_functions
+
+from agents.chroma_embedding import get_chroma_embedding_function
+from agents.token_usage import usage_run_begin, usage_run_end
+
 
 class CortexSingle:
-    def __init__(self):
-        self.reasoning_agent = Reasoning_Benchmark()
+    def __init__(self, reasoning_role: str = "single"):
+        self.reasoning_agent = Reasoning_Benchmark(llm_role=reasoning_role)
         
         chroma_path = "./long_term_memory_store_single_agent"
         self.chroma_client = chromadb.PersistentClient(path=chroma_path)
         
-        self.embedding_function = embedding_functions.OpenAIEmbeddingFunction(
-            api_key=os.getenv("OPENAI_API_KEY"),
-            model_name="text-embedding-3-small"
-        )
+        self.embedding_function = get_chroma_embedding_function()
         
         self.agent_name = "reasoning"
         try:
@@ -70,31 +75,42 @@ class CortexSingle:
                 ids=[doc_id]
             )
         except Exception as e:
-            print(f"Error adding document to ChromaDB collection {self.agent_name}_memories: {e}")
+            print(f"Warning: could not add to ChromaDB collection {self.agent_name}_memories: {e}")
 
-    def process_query(self, query: str, topic: str = "General") -> Dict:
+    def process_query(
+        self,
+        query: str,
+        topic: str = "General",
+        task_type: str = TASK_COMMONGEN,
+        refinement_context: str | None = None,
+    ) -> Dict:
         """Processes a query using only the Reasoning agent."""
         self.reset_state()
         self.current_state["initial_query"] = query
-        
+        self.current_state["task_type"] = task_type
+
         # Prepare context for the reasoning agent - just the initial query for now
-        context_query = query 
+        context_query = query
 
         # Query relevant memories
         relevant_memories = self._query_chroma(context_query)
-        
-        # Run the reasoning agent
-        reasoning_output = self.reasoning_agent.analyze(
-            input_text=context_query, 
-            memories=relevant_memories,
-            topic=topic # Allow specifying topic for reasoning
-        )
-        self.current_state["agents"][self.agent_name] = reasoning_output
-        
-        # Store the analysis in long-term memory
+
+        usage_run_begin()
+        try:
+            reasoning_output = self.reasoning_agent.analyze(
+                input_text=context_query,
+                memories=relevant_memories,
+                topic=topic,
+                task_type=task_type,
+                refinement_context=refinement_context,
+            )
+            self.current_state["agents"][self.agent_name] = reasoning_output
+        finally:
+            self.current_state["token_usage"] = usage_run_end()
+
         doc_id = f"{self.agent_name}_{datetime.now().isoformat()}_{uuid4()}"
         self._add_to_chroma(reasoning_output, doc_id)
-        
+
         self.save_state("cortex_single_output.json") # Save to a different file
         return self.current_state
 

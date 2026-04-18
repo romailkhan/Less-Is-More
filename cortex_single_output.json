@@ -1,8 +1,14 @@
 {
-  "initial_query": "The Doubtfire sisters are driving home with 7 kittens adopted from the local animal shelter when their mother calls to inform them that their two house cats have just had kittens. She says that Patchy, the first cat, has had thrice the number of adopted kittens, while Trixie, the other cat, has had 12. How many kittens does the Doubtfire family now have?",
+  "initial_query": "Q: There are 3 houses in a row, numbered 1 on the left to 3 on the right. There is one person living in each house. The people in these houses have different characteristics:\n - Everyone likes a different kind of book: one is a mystery book reader, one is a science fiction book fanatic, and one is a history book buff\n - Each person has a different device: one has a computer, one has a television, and one has a phone\n\nClue(s):\n1. The mystery book reader lives directly left of the history book buff.\n2. The mystery book reader lives in the first house.\n3. The person who has a computer lives somewhere to the right of the person who has a phone.\n4. The mystery book reader lives directly left of the person who has a television.\n\nWhat is the number of the house where the science fiction book fanatic lives?\n  choice: 1\n  choice: 2\n  choice: 3\nA:",
   "agents": {
     "reasoning": {
-      "final_answer": "40"
+      "final_answer": "3"
     }
+  },
+  "task_type": "logic_grid",
+  "token_usage": {
+    "input_tokens": 336,
+    "output_tokens": 442,
+    "total_tokens": 778
   }
 }

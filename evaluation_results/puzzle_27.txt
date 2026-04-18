@@ -1,0 +1,33 @@
+=== PUZZLE INPUT ===
+Q: There are 3 houses in a row, numbered 1 on the left to 3 on the right. There is one person living in each house. The people in these houses have different characteristics:
+ - Each person ate something different for lunch: one ate spaghetti, one had stew, and one ate fried rice
+ - Each person plays a different sport: one is a swimmer, one is a cricketer, and one is a tennis player
+
+Clue(s):
+1. The person who ate fried rice lives in the third house.
+2. The person who ate spaghetti lives directly left of the person who ate fried rice.
+3. The swimmer lives in the first house.
+4. The cricketer does not live in the third house.
+
+What is the number of the house where the person who ate spaghetti lives?
+  choice: 1
+  choice: 2
+  choice: 3
+A:
+
+=== CORRECT TARGET ===
+['2']
+
+=== AGENT RAW RESPONSE ===
+{
+  "initial_query": "Q: There are 3 houses in a row, numbered 1 on the left to 3 on the right. There is one person living in each house. The people in these houses have different characteristics:\n - Each person ate something different for lunch: one ate spaghetti, one had stew, and one ate fried rice\n - Each person plays a different sport: one is a swimmer, one is a cricketer, and one is a tennis player\n\nClue(s):\n1. The person who ate fried rice lives in the third house.\n2. The person who ate spaghetti lives directly left of the person who ate fried rice.\n3. The swimmer lives in the first house.\n4. The cricketer does not live in the third house.\n\nWhat is the number of the house where the person who ate spaghetti lives?\n  choice: 1\n  choice: 2\n  choice: 3\nA:",
+  "agents": {
+    "reasoning": {
+      "final_answer": "The person who ate spaghetti lives in house number 2."
+    }
+  }
+}
+
+=== EVALUATION ===
+Extracted Answer: None
+Is Correct: False
