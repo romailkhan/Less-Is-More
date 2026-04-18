@@ -1,17 +1,14 @@
 from typing import Dict, List
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_groq import ChatGroq
-import os
 import json
+
+from agents.openrouter_llm import get_openrouter_llm
+from agents.token_usage import record_message
+
 
 class Perception:
     def __init__(self):
-        self.llm = ChatGroq(
-            model_name=os.getenv("MODEL"),
-            api_key=os.getenv("GROQ_API_KEY"),
-            temperature=os.getenv("TEMPERATURE"),
-            max_tokens=os.getenv("MAX_TOKENS")
-        )
+        self.llm = get_openrouter_llm(role="perception")
         
         self.system_template = """
         You are a Perception Specialist. Your role is to analyze inputs to identify key patterns 
@@ -29,7 +26,7 @@ class Perception:
         - Important patterns
 
         IMPORTANT: You must respond with ONLY valid JSON. Your entire response must be a single JSON object with exactly this structure:
-        {{
+        {{ # important: you must have these fields to not get parsed incorrectly
             "role": "Perception Specialist",
             "analysis": {{
                 "main_topics": ["topic1", "topic2"],
@@ -62,7 +59,8 @@ class Perception:
             "input": input_text,
             "memories": memories
         })
-        
+        record_message(response)
+
         response_text = str(response.content)
         
         try:

@@ -1,0 +1,30 @@
+=== PUZZLE INPUT ===
+Q: There are 2 houses next to each other, numbered 1 on the left and 2 on the right. There is one person living in each house. The people in these houses have different characteristics:
+ - Each person has different flowers in their foyer: one has a carnations arrangement and one has a bouquet of daffodils
+ - Each person plays a different musical instrument: one is a pianist and one is a guitarist
+
+Clue(s):
+1. The person who has a bouquet of daffodils and the pianist live directly next to each other.
+2. The pianist lives in the second house.
+
+What is the number of the house where the person who has a bouquet of daffodils lives?
+  choice: 2
+  choice: 1
+A:
+
+=== CORRECT TARGET ===
+['1']
+
+=== AGENT RAW RESPONSE ===
+{
+  "initial_query": "Q: There are 2 houses next to each other, numbered 1 on the left and 2 on the right. There is one person living in each house. The people in these houses have different characteristics:\n - Each person has different flowers in their foyer: one has a carnations arrangement and one has a bouquet of daffodils\n - Each person plays a different musical instrument: one is a pianist and one is a guitarist\n\nClue(s):\n1. The person who has a bouquet of daffodils and the pianist live directly next to each other.\n2. The pianist lives in the second house.\n\nWhat is the number of the house where the person who has a bouquet of daffodils lives?\n  choice: 2\n  choice: 1\nA:",
+  "agents": {
+    "reasoning": {
+      "final_answer": "The person who has a bouquet of daffodils lives in house number 1."
+    }
+  }
+}
+
+=== EVALUATION ===
+Extracted Answer: None
+Is Correct: False

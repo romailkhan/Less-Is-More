@@ -1,0 +1,2615 @@
+{
+  "benchmark": "logic_grid",
+  "mode": "monolith",
+  "data_source": "auto",
+  "accuracy": 0.94,
+  "correct": 188,
+  "total": 200,
+  "token_usage_total": {
+    "input_tokens": 87013,
+    "output_tokens": 492121,
+    "total_tokens": 579134
+  },
+  "rows": [
+    {
+      "idx": 0,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 336,
+        "output_tokens": 1182,
+        "total_tokens": 1518
+      }
+    },
+    {
+      "idx": 1,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 448,
+        "output_tokens": 2495,
+        "total_tokens": 2943
+      }
+    },
+    {
+      "idx": 2,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 692,
+        "output_tokens": 6759,
+        "total_tokens": 7451
+      }
+    },
+    {
+      "idx": 3,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 568,
+        "output_tokens": 3119,
+        "total_tokens": 3687
+      }
+    },
+    {
+      "idx": 4,
+      "targets": [
+        "5"
+      ],
+      "predicted": "5",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 368,
+        "output_tokens": 1416,
+        "total_tokens": 1784
+      }
+    },
+    {
+      "idx": 5,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 366,
+        "output_tokens": 1612,
+        "total_tokens": 1978
+      }
+    },
+    {
+      "idx": 6,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 481,
+        "output_tokens": 2025,
+        "total_tokens": 2506
+      }
+    },
+    {
+      "idx": 7,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 440,
+        "output_tokens": 1998,
+        "total_tokens": 2438
+      }
+    },
+    {
+      "idx": 8,
+      "targets": [
+        "3"
+      ],
+      "predicted": "Error: Parsing failed. Response:",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 635,
+        "output_tokens": 8192,
+        "total_tokens": 8827
+      }
+    },
+    {
+      "idx": 9,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 265,
+        "output_tokens": 523,
+        "total_tokens": 788
+      }
+    },
+    {
+      "idx": 10,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 312,
+        "output_tokens": 780,
+        "total_tokens": 1092
+      }
+    },
+    {
+      "idx": 11,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 333,
+        "output_tokens": 1446,
+        "total_tokens": 1779
+      }
+    },
+    {
+      "idx": 12,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 277,
+        "output_tokens": 724,
+        "total_tokens": 1001
+      }
+    },
+    {
+      "idx": 13,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 417,
+        "output_tokens": 1282,
+        "total_tokens": 1699
+      }
+    },
+    {
+      "idx": 14,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 320,
+        "output_tokens": 664,
+        "total_tokens": 984
+      }
+    },
+    {
+      "idx": 15,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 684,
+        "output_tokens": 5405,
+        "total_tokens": 6089
+      }
+    },
+    {
+      "idx": 16,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 534,
+        "output_tokens": 3497,
+        "total_tokens": 4031
+      }
+    },
+    {
+      "idx": 17,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 545,
+        "output_tokens": 6481,
+        "total_tokens": 7026
+      }
+    },
+    {
+      "idx": 18,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 354,
+        "output_tokens": 1790,
+        "total_tokens": 2144
+      }
+    },
+    {
+      "idx": 19,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 278,
+        "output_tokens": 758,
+        "total_tokens": 1036
+      }
+    },
+    {
+      "idx": 20,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 489,
+        "output_tokens": 2258,
+        "total_tokens": 2747
+      }
+    },
+    {
+      "idx": 21,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 336,
+        "output_tokens": 1322,
+        "total_tokens": 1658
+      }
+    },
+    {
+      "idx": 22,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 429,
+        "output_tokens": 1990,
+        "total_tokens": 2419
+      }
+    },
+    {
+      "idx": 23,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 487,
+        "output_tokens": 1980,
+        "total_tokens": 2467
+      }
+    },
+    {
+      "idx": 24,
+      "targets": [
+        "3"
+      ],
+      "predicted": "Error: Parsing failed. Response:",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 422,
+        "output_tokens": 3543,
+        "total_tokens": 3965
+      }
+    },
+    {
+      "idx": 25,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 574,
+        "output_tokens": 3502,
+        "total_tokens": 4076
+      }
+    },
+    {
+      "idx": 26,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 315,
+        "output_tokens": 566,
+        "total_tokens": 881
+      }
+    },
+    {
+      "idx": 27,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 282,
+        "output_tokens": 442,
+        "total_tokens": 724
+      }
+    },
+    {
+      "idx": 28,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 508,
+        "output_tokens": 3006,
+        "total_tokens": 3514
+      }
+    },
+    {
+      "idx": 29,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 300,
+        "output_tokens": 541,
+        "total_tokens": 841
+      }
+    },
+    {
+      "idx": 30,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 767,
+        "output_tokens": 6314,
+        "total_tokens": 7081
+      }
+    },
+    {
+      "idx": 31,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 434,
+        "output_tokens": 1449,
+        "total_tokens": 1883
+      }
+    },
+    {
+      "idx": 32,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 372,
+        "output_tokens": 1262,
+        "total_tokens": 1634
+      }
+    },
+    {
+      "idx": 33,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 318,
+        "output_tokens": 1276,
+        "total_tokens": 1594
+      }
+    },
+    {
+      "idx": 34,
+      "targets": [
+        "5"
+      ],
+      "predicted": "Error: Parsing failed. Response:",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 764,
+        "output_tokens": 8192,
+        "total_tokens": 8956
+      }
+    },
+    {
+      "idx": 35,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 467,
+        "output_tokens": 2273,
+        "total_tokens": 2740
+      }
+    },
+    {
+      "idx": 36,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 474,
+        "output_tokens": 2157,
+        "total_tokens": 2631
+      }
+    },
+    {
+      "idx": 37,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 502,
+        "output_tokens": 2520,
+        "total_tokens": 3022
+      }
+    },
+    {
+      "idx": 38,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 383,
+        "output_tokens": 1264,
+        "total_tokens": 1647
+      }
+    },
+    {
+      "idx": 39,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 285,
+        "output_tokens": 602,
+        "total_tokens": 887
+      }
+    },
+    {
+      "idx": 40,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 573,
+        "output_tokens": 5712,
+        "total_tokens": 6285
+      }
+    },
+    {
+      "idx": 41,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 451,
+        "output_tokens": 1874,
+        "total_tokens": 2325
+      }
+    },
+    {
+      "idx": 42,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 437,
+        "output_tokens": 1601,
+        "total_tokens": 2038
+      }
+    },
+    {
+      "idx": 43,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 334,
+        "output_tokens": 667,
+        "total_tokens": 1001
+      }
+    },
+    {
+      "idx": 44,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 487,
+        "output_tokens": 2175,
+        "total_tokens": 2662
+      }
+    },
+    {
+      "idx": 45,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 691,
+        "output_tokens": 10478,
+        "total_tokens": 11169
+      }
+    },
+    {
+      "idx": 46,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 247,
+        "output_tokens": 232,
+        "total_tokens": 479
+      }
+    },
+    {
+      "idx": 47,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 336,
+        "output_tokens": 1079,
+        "total_tokens": 1415
+      }
+    },
+    {
+      "idx": 48,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 463,
+        "output_tokens": 3539,
+        "total_tokens": 4002
+      }
+    },
+    {
+      "idx": 49,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 340,
+        "output_tokens": 610,
+        "total_tokens": 950
+      }
+    },
+    {
+      "idx": 50,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 368,
+        "output_tokens": 2327,
+        "total_tokens": 2695
+      }
+    },
+    {
+      "idx": 51,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 335,
+        "output_tokens": 830,
+        "total_tokens": 1165
+      }
+    },
+    {
+      "idx": 52,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 300,
+        "output_tokens": 881,
+        "total_tokens": 1181
+      }
+    },
+    {
+      "idx": 53,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 292,
+        "output_tokens": 544,
+        "total_tokens": 836
+      }
+    },
+    {
+      "idx": 54,
+      "targets": [
+        "5"
+      ],
+      "predicted": "5",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 733,
+        "output_tokens": 5188,
+        "total_tokens": 5921
+      }
+    },
+    {
+      "idx": 55,
+      "targets": [
+        "4"
+      ],
+      "predicted": "Error: Parsing failed. Response:",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 617,
+        "output_tokens": 8192,
+        "total_tokens": 8809
+      }
+    },
+    {
+      "idx": 56,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 237,
+        "output_tokens": 192,
+        "total_tokens": 429
+      }
+    },
+    {
+      "idx": 57,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 596,
+        "output_tokens": 4474,
+        "total_tokens": 5070
+      }
+    },
+    {
+      "idx": 58,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 535,
+        "output_tokens": 3790,
+        "total_tokens": 4325
+      }
+    },
+    {
+      "idx": 59,
+      "targets": [
+        "1"
+      ],
+      "predicted": "Error: Parsing failed. Response:",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 427,
+        "output_tokens": 402,
+        "total_tokens": 829
+      }
+    },
+    {
+      "idx": 60,
+      "targets": [
+        "2"
+      ],
+      "predicted": "Error: Parsing failed. Response:",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 699,
+        "output_tokens": 3692,
+        "total_tokens": 4391
+      }
+    },
+    {
+      "idx": 61,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 359,
+        "output_tokens": 719,
+        "total_tokens": 1078
+      }
+    },
+    {
+      "idx": 62,
+      "targets": [
+        "5"
+      ],
+      "predicted": "5",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 564,
+        "output_tokens": 3445,
+        "total_tokens": 4009
+      }
+    },
+    {
+      "idx": 63,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 586,
+        "output_tokens": 4406,
+        "total_tokens": 4992
+      }
+    },
+    {
+      "idx": 64,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 278,
+        "output_tokens": 564,
+        "total_tokens": 842
+      }
+    },
+    {
+      "idx": 65,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 298,
+        "output_tokens": 687,
+        "total_tokens": 985
+      }
+    },
+    {
+      "idx": 66,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 335,
+        "output_tokens": 671,
+        "total_tokens": 1006
+      }
+    },
+    {
+      "idx": 67,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 328,
+        "output_tokens": 1126,
+        "total_tokens": 1454
+      }
+    },
+    {
+      "idx": 68,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 322,
+        "output_tokens": 1169,
+        "total_tokens": 1491
+      }
+    },
+    {
+      "idx": 69,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 424,
+        "output_tokens": 2770,
+        "total_tokens": 3194
+      }
+    },
+    {
+      "idx": 70,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 644,
+        "output_tokens": 4298,
+        "total_tokens": 4942
+      }
+    },
+    {
+      "idx": 71,
+      "targets": [
+        "5"
+      ],
+      "predicted": "Error: Parsing failed. Response:",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 575,
+        "output_tokens": 8192,
+        "total_tokens": 8767
+      }
+    },
+    {
+      "idx": 72,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 256,
+        "output_tokens": 330,
+        "total_tokens": 586
+      }
+    },
+    {
+      "idx": 73,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 348,
+        "output_tokens": 896,
+        "total_tokens": 1244
+      }
+    },
+    {
+      "idx": 74,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 419,
+        "output_tokens": 3636,
+        "total_tokens": 4055
+      }
+    },
+    {
+      "idx": 75,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 493,
+        "output_tokens": 2663,
+        "total_tokens": 3156
+      }
+    },
+    {
+      "idx": 76,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 344,
+        "output_tokens": 897,
+        "total_tokens": 1241
+      }
+    },
+    {
+      "idx": 77,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 404,
+        "output_tokens": 1502,
+        "total_tokens": 1906
+      }
+    },
+    {
+      "idx": 78,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 555,
+        "output_tokens": 4673,
+        "total_tokens": 5228
+      }
+    },
+    {
+      "idx": 79,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 759,
+        "output_tokens": 7768,
+        "total_tokens": 8527
+      }
+    },
+    {
+      "idx": 80,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 348,
+        "output_tokens": 1081,
+        "total_tokens": 1429
+      }
+    },
+    {
+      "idx": 81,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 473,
+        "output_tokens": 2735,
+        "total_tokens": 3208
+      }
+    },
+    {
+      "idx": 82,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 406,
+        "output_tokens": 3017,
+        "total_tokens": 3423
+      }
+    },
+    {
+      "idx": 83,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 560,
+        "output_tokens": 2126,
+        "total_tokens": 2686
+      }
+    },
+    {
+      "idx": 84,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 236,
+        "output_tokens": 259,
+        "total_tokens": 495
+      }
+    },
+    {
+      "idx": 85,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 285,
+        "output_tokens": 529,
+        "total_tokens": 814
+      }
+    },
+    {
+      "idx": 86,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 391,
+        "output_tokens": 2286,
+        "total_tokens": 2677
+      }
+    },
+    {
+      "idx": 87,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 437,
+        "output_tokens": 1897,
+        "total_tokens": 2334
+      }
+    },
+    {
+      "idx": 88,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 295,
+        "output_tokens": 657,
+        "total_tokens": 952
+      }
+    },
+    {
+      "idx": 89,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 425,
+        "output_tokens": 1587,
+        "total_tokens": 2012
+      }
+    },
+    {
+      "idx": 90,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 318,
+        "output_tokens": 583,
+        "total_tokens": 901
+      }
+    },
+    {
+      "idx": 91,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 485,
+        "output_tokens": 4141,
+        "total_tokens": 4626
+      }
+    },
+    {
+      "idx": 92,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 334,
+        "output_tokens": 723,
+        "total_tokens": 1057
+      }
+    },
+    {
+      "idx": 93,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 357,
+        "output_tokens": 1810,
+        "total_tokens": 2167
+      }
+    },
+    {
+      "idx": 94,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 565,
+        "output_tokens": 3284,
+        "total_tokens": 3849
+      }
+    },
+    {
+      "idx": 95,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 258,
+        "output_tokens": 652,
+        "total_tokens": 910
+      }
+    },
+    {
+      "idx": 96,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 588,
+        "output_tokens": 5854,
+        "total_tokens": 6442
+      }
+    },
+    {
+      "idx": 97,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 623,
+        "output_tokens": 2782,
+        "total_tokens": 3405
+      }
+    },
+    {
+      "idx": 98,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 515,
+        "output_tokens": 3574,
+        "total_tokens": 4089
+      }
+    },
+    {
+      "idx": 99,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 479,
+        "output_tokens": 4114,
+        "total_tokens": 4593
+      }
+    },
+    {
+      "idx": 100,
+      "targets": [
+        "5"
+      ],
+      "predicted": "5",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 384,
+        "output_tokens": 1198,
+        "total_tokens": 1582
+      }
+    },
+    {
+      "idx": 101,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 337,
+        "output_tokens": 1329,
+        "total_tokens": 1666
+      }
+    },
+    {
+      "idx": 102,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 303,
+        "output_tokens": 541,
+        "total_tokens": 844
+      }
+    },
+    {
+      "idx": 103,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 247,
+        "output_tokens": 173,
+        "total_tokens": 420
+      }
+    },
+    {
+      "idx": 104,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 515,
+        "output_tokens": 3468,
+        "total_tokens": 3983
+      }
+    },
+    {
+      "idx": 105,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 293,
+        "output_tokens": 443,
+        "total_tokens": 736
+      }
+    },
+    {
+      "idx": 106,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 652,
+        "output_tokens": 4747,
+        "total_tokens": 5399
+      }
+    },
+    {
+      "idx": 107,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 316,
+        "output_tokens": 1452,
+        "total_tokens": 1768
+      }
+    },
+    {
+      "idx": 108,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 618,
+        "output_tokens": 7083,
+        "total_tokens": 7701
+      }
+    },
+    {
+      "idx": 109,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 552,
+        "output_tokens": 2722,
+        "total_tokens": 3274
+      }
+    },
+    {
+      "idx": 110,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 334,
+        "output_tokens": 1029,
+        "total_tokens": 1363
+      }
+    },
+    {
+      "idx": 111,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 451,
+        "output_tokens": 1810,
+        "total_tokens": 2261
+      }
+    },
+    {
+      "idx": 112,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 270,
+        "output_tokens": 375,
+        "total_tokens": 645
+      }
+    },
+    {
+      "idx": 113,
+      "targets": [
+        "3"
+      ],
+      "predicted": "Error: Parsing failed. Response:",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 705,
+        "output_tokens": 7568,
+        "total_tokens": 8273
+      }
+    },
+    {
+      "idx": 114,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 275,
+        "output_tokens": 889,
+        "total_tokens": 1164
+      }
+    },
+    {
+      "idx": 115,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 520,
+        "output_tokens": 5647,
+        "total_tokens": 6167
+      }
+    },
+    {
+      "idx": 116,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 285,
+        "output_tokens": 598,
+        "total_tokens": 883
+      }
+    },
+    {
+      "idx": 117,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 284,
+        "output_tokens": 779,
+        "total_tokens": 1063
+      }
+    },
+    {
+      "idx": 118,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 459,
+        "output_tokens": 1687,
+        "total_tokens": 2146
+      }
+    },
+    {
+      "idx": 119,
+      "targets": [
+        "5"
+      ],
+      "predicted": "Error: Parsing failed. Response:",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 674,
+        "output_tokens": 8192,
+        "total_tokens": 8866
+      }
+    },
+    {
+      "idx": 120,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 470,
+        "output_tokens": 1350,
+        "total_tokens": 1820
+      }
+    },
+    {
+      "idx": 121,
+      "targets": [
+        "5"
+      ],
+      "predicted": "5",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 591,
+        "output_tokens": 5326,
+        "total_tokens": 5917
+      }
+    },
+    {
+      "idx": 122,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 387,
+        "output_tokens": 3117,
+        "total_tokens": 3504
+      }
+    },
+    {
+      "idx": 123,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 318,
+        "output_tokens": 839,
+        "total_tokens": 1157
+      }
+    },
+    {
+      "idx": 124,
+      "targets": [
+        "4"
+      ],
+      "predicted": "Error: Parsing failed. Response:",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 661,
+        "output_tokens": 8192,
+        "total_tokens": 8853
+      }
+    },
+    {
+      "idx": 125,
+      "targets": [
+        "3"
+      ],
+      "predicted": "Error: Parsing failed. Response:",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 768,
+        "output_tokens": 8192,
+        "total_tokens": 8960
+      }
+    },
+    {
+      "idx": 126,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 689,
+        "output_tokens": 4921,
+        "total_tokens": 5610
+      }
+    },
+    {
+      "idx": 127,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 415,
+        "output_tokens": 2261,
+        "total_tokens": 2676
+      }
+    },
+    {
+      "idx": 128,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 357,
+        "output_tokens": 997,
+        "total_tokens": 1354
+      }
+    },
+    {
+      "idx": 129,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 639,
+        "output_tokens": 4409,
+        "total_tokens": 5048
+      }
+    },
+    {
+      "idx": 130,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 599,
+        "output_tokens": 3486,
+        "total_tokens": 4085
+      }
+    },
+    {
+      "idx": 131,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 317,
+        "output_tokens": 1276,
+        "total_tokens": 1593
+      }
+    },
+    {
+      "idx": 132,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 246,
+        "output_tokens": 246,
+        "total_tokens": 492
+      }
+    },
+    {
+      "idx": 133,
+      "targets": [
+        "3"
+      ],
+      "predicted": "Error: Parsing failed. Response:",
+      "correct": false,
+      "token_usage": {
+        "input_tokens": 492,
+        "output_tokens": 223,
+        "total_tokens": 715
+      }
+    },
+    {
+      "idx": 134,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 238,
+        "output_tokens": 337,
+        "total_tokens": 575
+      }
+    },
+    {
+      "idx": 135,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 464,
+        "output_tokens": 2032,
+        "total_tokens": 2496
+      }
+    },
+    {
+      "idx": 136,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 563,
+        "output_tokens": 7175,
+        "total_tokens": 7738
+      }
+    },
+    {
+      "idx": 137,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 360,
+        "output_tokens": 788,
+        "total_tokens": 1148
+      }
+    },
+    {
+      "idx": 138,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 364,
+        "output_tokens": 1298,
+        "total_tokens": 1662
+      }
+    },
+    {
+      "idx": 139,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 267,
+        "output_tokens": 397,
+        "total_tokens": 664
+      }
+    },
+    {
+      "idx": 140,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 226,
+        "output_tokens": 316,
+        "total_tokens": 542
+      }
+    },
+    {
+      "idx": 141,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 280,
+        "output_tokens": 1006,
+        "total_tokens": 1286
+      }
+    },
+    {
+      "idx": 142,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 513,
+        "output_tokens": 2718,
+        "total_tokens": 3231
+      }
+    },
+    {
+      "idx": 143,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 718,
+        "output_tokens": 5668,
+        "total_tokens": 6386
+      }
+    },
+    {
+      "idx": 144,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 301,
+        "output_tokens": 317,
+        "total_tokens": 618
+      }
+    },
+    {
+      "idx": 145,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 236,
+        "output_tokens": 242,
+        "total_tokens": 478
+      }
+    },
+    {
+      "idx": 146,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 302,
+        "output_tokens": 719,
+        "total_tokens": 1021
+      }
+    },
+    {
+      "idx": 147,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 317,
+        "output_tokens": 906,
+        "total_tokens": 1223
+      }
+    },
+    {
+      "idx": 148,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 285,
+        "output_tokens": 780,
+        "total_tokens": 1065
+      }
+    },
+    {
+      "idx": 149,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 385,
+        "output_tokens": 1526,
+        "total_tokens": 1911
+      }
+    },
+    {
+      "idx": 150,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 413,
+        "output_tokens": 2506,
+        "total_tokens": 2919
+      }
+    },
+    {
+      "idx": 151,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 703,
+        "output_tokens": 4659,
+        "total_tokens": 5362
+      }
+    },
+    {
+      "idx": 152,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 258,
+        "output_tokens": 420,
+        "total_tokens": 678
+      }
+    },
+    {
+      "idx": 153,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 408,
+        "output_tokens": 1396,
+        "total_tokens": 1804
+      }
+    },
+    {
+      "idx": 154,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 474,
+        "output_tokens": 1687,
+        "total_tokens": 2161
+      }
+    },
+    {
+      "idx": 155,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 369,
+        "output_tokens": 3543,
+        "total_tokens": 3912
+      }
+    },
+    {
+      "idx": 156,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 326,
+        "output_tokens": 1018,
+        "total_tokens": 1344
+      }
+    },
+    {
+      "idx": 157,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 350,
+        "output_tokens": 1035,
+        "total_tokens": 1385
+      }
+    },
+    {
+      "idx": 158,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 415,
+        "output_tokens": 1846,
+        "total_tokens": 2261
+      }
+    },
+    {
+      "idx": 159,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 387,
+        "output_tokens": 1834,
+        "total_tokens": 2221
+      }
+    },
+    {
+      "idx": 160,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 357,
+        "output_tokens": 2010,
+        "total_tokens": 2367
+      }
+    },
+    {
+      "idx": 161,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 476,
+        "output_tokens": 4743,
+        "total_tokens": 5219
+      }
+    },
+    {
+      "idx": 162,
+      "targets": [
+        "5"
+      ],
+      "predicted": "5",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 703,
+        "output_tokens": 4582,
+        "total_tokens": 5285
+      }
+    },
+    {
+      "idx": 163,
+      "targets": [
+        "5"
+      ],
+      "predicted": "5",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 491,
+        "output_tokens": 3788,
+        "total_tokens": 4279
+      }
+    },
+    {
+      "idx": 164,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 301,
+        "output_tokens": 734,
+        "total_tokens": 1035
+      }
+    },
+    {
+      "idx": 165,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 292,
+        "output_tokens": 1058,
+        "total_tokens": 1350
+      }
+    },
+    {
+      "idx": 166,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 589,
+        "output_tokens": 3824,
+        "total_tokens": 4413
+      }
+    },
+    {
+      "idx": 167,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 346,
+        "output_tokens": 980,
+        "total_tokens": 1326
+      }
+    },
+    {
+      "idx": 168,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 285,
+        "output_tokens": 895,
+        "total_tokens": 1180
+      }
+    },
+    {
+      "idx": 169,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 353,
+        "output_tokens": 763,
+        "total_tokens": 1116
+      }
+    },
+    {
+      "idx": 170,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 507,
+        "output_tokens": 1615,
+        "total_tokens": 2122
+      }
+    },
+    {
+      "idx": 171,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 470,
+        "output_tokens": 2048,
+        "total_tokens": 2518
+      }
+    },
+    {
+      "idx": 172,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 427,
+        "output_tokens": 2139,
+        "total_tokens": 2566
+      }
+    },
+    {
+      "idx": 173,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 603,
+        "output_tokens": 3011,
+        "total_tokens": 3614
+      }
+    },
+    {
+      "idx": 174,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 360,
+        "output_tokens": 1207,
+        "total_tokens": 1567
+      }
+    },
+    {
+      "idx": 175,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 403,
+        "output_tokens": 1539,
+        "total_tokens": 1942
+      }
+    },
+    {
+      "idx": 176,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 563,
+        "output_tokens": 2841,
+        "total_tokens": 3404
+      }
+    },
+    {
+      "idx": 177,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 389,
+        "output_tokens": 1625,
+        "total_tokens": 2014
+      }
+    },
+    {
+      "idx": 178,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 482,
+        "output_tokens": 2879,
+        "total_tokens": 3361
+      }
+    },
+    {
+      "idx": 179,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 364,
+        "output_tokens": 856,
+        "total_tokens": 1220
+      }
+    },
+    {
+      "idx": 180,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 672,
+        "output_tokens": 5537,
+        "total_tokens": 6209
+      }
+    },
+    {
+      "idx": 181,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 307,
+        "output_tokens": 593,
+        "total_tokens": 900
+      }
+    },
+    {
+      "idx": 182,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 579,
+        "output_tokens": 5630,
+        "total_tokens": 6209
+      }
+    },
+    {
+      "idx": 183,
+      "targets": [
+        "5"
+      ],
+      "predicted": "5",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 611,
+        "output_tokens": 7143,
+        "total_tokens": 7754
+      }
+    },
+    {
+      "idx": 184,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 609,
+        "output_tokens": 3654,
+        "total_tokens": 4263
+      }
+    },
+    {
+      "idx": 185,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 323,
+        "output_tokens": 624,
+        "total_tokens": 947
+      }
+    },
+    {
+      "idx": 186,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 603,
+        "output_tokens": 5613,
+        "total_tokens": 6216
+      }
+    },
+    {
+      "idx": 187,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 527,
+        "output_tokens": 3762,
+        "total_tokens": 4289
+      }
+    },
+    {
+      "idx": 188,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 268,
+        "output_tokens": 749,
+        "total_tokens": 1017
+      }
+    },
+    {
+      "idx": 189,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 496,
+        "output_tokens": 2391,
+        "total_tokens": 2887
+      }
+    },
+    {
+      "idx": 190,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 465,
+        "output_tokens": 2663,
+        "total_tokens": 3128
+      }
+    },
+    {
+      "idx": 191,
+      "targets": [
+        "1"
+      ],
+      "predicted": "1",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 256,
+        "output_tokens": 339,
+        "total_tokens": 595
+      }
+    },
+    {
+      "idx": 192,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 500,
+        "output_tokens": 2846,
+        "total_tokens": 3346
+      }
+    },
+    {
+      "idx": 193,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 325,
+        "output_tokens": 583,
+        "total_tokens": 908
+      }
+    },
+    {
+      "idx": 194,
+      "targets": [
+        "4"
+      ],
+      "predicted": "4",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 528,
+        "output_tokens": 5276,
+        "total_tokens": 5804
+      }
+    },
+    {
+      "idx": 195,
+      "targets": [
+        "2"
+      ],
+      "predicted": "2",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 256,
+        "output_tokens": 532,
+        "total_tokens": 788
+      }
+    },
+    {
+      "idx": 196,
+      "targets": [
+        "5"
+      ],
+      "predicted": "5",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 774,
+        "output_tokens": 4021,
+        "total_tokens": 4795
+      }
+    },
+    {
+      "idx": 197,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 331,
+        "output_tokens": 645,
+        "total_tokens": 976
+      }
+    },
+    {
+      "idx": 198,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 450,
+        "output_tokens": 1789,
+        "total_tokens": 2239
+      }
+    },
+    {
+      "idx": 199,
+      "targets": [
+        "3"
+      ],
+      "predicted": "3",
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 299,
+        "output_tokens": 671,
+        "total_tokens": 970
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "benchmark": "mgsm",
+  "mode": "multi",
+  "data_source": "auto",
+  "offset": 0,
+  "dataset_size": 250,
+  "accuracy": 1.0,
+  "correct": 2,
+  "total": 2,
+  "token_usage_total": {
+    "input_tokens": 6501,
+    "output_tokens": 1950,
+    "total_tokens": 8451
+  },
+  "rows": [
+    {
+      "index": 1,
+      "expected": 25.0,
+      "predicted": 25.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 3219,
+        "output_tokens": 896,
+        "total_tokens": 4115
+      }
+    },
+    {
+      "index": 2,
+      "expected": 6.0,
+      "predicted": 6.0,
+      "correct": true,
+      "token_usage": {
+        "input_tokens": 3282,
+        "output_tokens": 1054,
+        "total_tokens": 4336
+      }
+    }
+  ]
+}

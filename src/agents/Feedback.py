@@ -1,17 +1,14 @@
 from typing import Dict, List
 from langchain_core.prompts import ChatPromptTemplate
-from langchain_groq import ChatGroq
-import os
 import json
+
+from agents.openrouter_llm import get_openrouter_llm
+from agents.token_usage import record_message
+
 
 class Feedback:
     def __init__(self):
-        self.llm = ChatGroq(
-            model_name=os.getenv("MODEL"),
-            api_key=os.getenv("GROQ_API_KEY"),
-            temperature=os.getenv("TEMPERATURE"),
-            max_tokens=os.getenv("MAX_TOKENS")
-        )
+        self.llm = get_openrouter_llm(role="feedback")
         
         self.system_template = """
         You are a {topic} Feedback Specialist. Your role is to evaluate all analyses 
@@ -71,7 +68,8 @@ class Feedback:
             "memories": memories,
             "topic": topic
         })
-        
+        record_message(response)
+
         response_text = str(response.content)
         
         try:
